@@ -1,0 +1,17 @@
+{
+    "funcPinMap": {
+        "CMOS_RST": "E1",
+        "CMOS_PWDN": "D1",
+        "CMOS_XCLK": "D2",
+        "CMOS_VSYNC": "E2",
+        "CMOS_HREF": "B1",
+        "CMOS_PCLK": "C1",
+        "SCCB_SCLK": "F2",
+        "SCCB_SDA": "F1",
+        "GPIOHS2": "G2",
+        "SPI0_SS3": "H2",
+        "SPI0_SCLK": "G1",
+        "GPIOHS8": "A5"
+    },
+    "selectedChip": "Kendryte"
+}

@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_sdcard-file-bmp-standalone-driver.a  CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_sdcard-file-bmp-standalone-driver.a
