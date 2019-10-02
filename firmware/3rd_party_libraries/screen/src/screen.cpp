@@ -3,6 +3,8 @@
 Screen::Screen() {}
 Screen::~Screen() {}
 
+uint16_t Screen::resized_frame[320 * 240];
+
 int init_st7789_240x135(Screen *context)
 {
   // Screen params
@@ -45,10 +47,7 @@ int init_st7789_240x135(Screen *context)
   return 0;
 }
 
-int Screen::init(ScreenType screenType )
-{
-  return init(screenType, 18, 20);
-}
+int Screen::init(ScreenType screenType) { return init(screenType, 18, 20); }
 
 int Screen::init(ScreenType screenType, int rst, int dc)
 {
@@ -215,17 +214,21 @@ void Screen::draw_picture(uint16_t x1, uint16_t y1, uint16_t width,
   tft_write_word(ptr, width * height / 2);
 }
 
-uint16_t b[320 * 240 / 4];
-
-void Screen::draw_picture_half(uint16_t x1, uint16_t y1, uint16_t width,
-                               uint16_t height, uint32_t *ptr)
+void Screen::draw_picture_resized(uint16_t x1, uint16_t y1, uint16_t width,
+                                  uint16_t height, uint32_t *ptr)
 {
   uint16_t *p16 = (uint16_t *)ptr;
-  int len = 320 * 240 / 4;
-  for (int i = 0; i < len; i++)
-    b[i] = *(p16 + 2 * i);
-  set_area(x1, y1, x1 + 160 - 1, y1 + 120 - 1);
-  tft_write_half(b, len);
+
+  float rw = 320 / width;
+  float rh = 240 / height;
+
+  for (float col = 0; col < width; col++)
+    for (float row = 0; row < height; row++)
+      Screen::resized_frame[int(row * width + col)] =
+          *(p16 + int(roundf((row * 320 * rh) + col * rw)));
+
+  set_area(x1, y1, x1 + width - 1, y1 + height - 1);
+  tft_write_half(Screen::resized_frame, width * height);
 }
 
 // draw pic's roi on (x,y)

@@ -72,7 +72,7 @@ const uint16_t ov5640_config[][2] = {
     {0x3813, 0x08}, // VTS
     {0x3814, 0x44}, // timing X inc
     {0x3815, 0x44}, // timing Y inc
-    {0x3820, 0x40}, // flip
+    {0x3820, 0x46}, // flip
     {0x3821, 0x00}, // mirror
 
     {0x3618, 0x00},
@@ -264,7 +264,7 @@ uint8_t ov5640_init(void)
     uint16_t i = 0;
     uint16_t reg = 0;
 
-    for(i = 0; i < sizeof(ov5640_config) / 4; i++)
+    for (i = 0; i < sizeof(ov5640_config) / 4; i++)
         ov5640_wr_reg(ov5640_config[i][0], ov5640_config[i][1]);
 
     return 0x00;

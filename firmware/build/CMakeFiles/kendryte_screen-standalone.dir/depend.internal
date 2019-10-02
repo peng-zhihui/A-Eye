@@ -3,7 +3,7 @@
 
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj
  ../3rd_party_libraries/screen/include/font.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/font.c
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/font.c
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj
  ../3rd_party_libraries/screen/include/spi_tft.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
@@ -19,15 +19,15 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/spi_tft.c
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/spi_tft.c
 CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/fpioa.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/fpioa-config.c
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/fpioa-config.h
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/fpioa-config.c
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/fpioa-config.h
 CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/fpioa-config.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/ide-hook-main.c
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/fpioa-config.h
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/ide-hook-main.c
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj
  ../3rd_party_libraries/camera/include/ov_camera.h
  ../kendryte_libraries/kendryte_camera-standalone-driver/include/camera.h
@@ -47,13 +47,17 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_came
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dvp.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/fpioa.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/camera/src/ov_camera.cpp
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/camera/src/ov_camera.cpp
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj
  ../3rd_party_libraries/screen/include/Screen.h
  ../3rd_party_libraries/screen/include/font.h
  ../3rd_party_libraries/screen/include/spi_tft.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/atomic.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/bsp.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/entry.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
+ ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/printf.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/sleep.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/syscalls.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/clint.h
@@ -64,7 +68,7 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/screen.cpp
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/screen.cpp
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj
  ../3rd_party_libraries/tfcard/include/tfcard.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ff.h
@@ -81,7 +85,7 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/tfcard/src/tfcard.cpp
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/tfcard/src/tfcard.cpp
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj
  ../3rd_party_libraries/camera/include/ov_camera.h
  ../3rd_party_libraries/screen/include/font.h
@@ -113,8 +117,8 @@ CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/uarths.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/a_eye_bsp.cpp
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/a_eye_bsp.h
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.cpp
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj
  ../3rd_party_libraries/camera/include/ov_camera.h
  ../3rd_party_libraries/screen/include/font.h
@@ -146,5 +150,5 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/uarths.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/a_eye_bsp.h
- C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/main.cpp
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.h
+ C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/main.cpp

@@ -8,7 +8,7 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "c:/Users/Pengzhihui/Desktop/A-Eye-firmware/.vscode/compile_commands.backup.json",
+            "compileCommands": "c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/.vscode/compile_commands.backup.json",
             "includePath": [
                 "D:/Green/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
                 "D:/Green/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",

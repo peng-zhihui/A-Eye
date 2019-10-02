@@ -51,8 +51,12 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_came
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/include/Screen.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/include/font.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/include/spi_tft.h
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/atomic.h
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/bsp.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/entry.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/printf.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/sleep.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/syscalls.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/clint.h

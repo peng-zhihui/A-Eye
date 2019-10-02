@@ -8,6 +8,8 @@
 #include "font.h"
 #include "sleep.h"
 #include "stdlib.h"
+#include "math.h"
+#include <bsp.h>
 
 #define BLACK 0x0000
 #define NAVY 0x000F
@@ -79,6 +81,8 @@ extern "C"
         uint16_t g_lcd_h;  // lcd height
         bool g_lcd_init;   // lcd init flag
 
+        static uint16_t resized_frame[320 * 240];
+
         void set_area(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2);
         void set_direction(lcd_dir_t dir);
         void enable_polling(void);
@@ -90,7 +94,6 @@ extern "C"
 
         int init(ScreenType screenType);
         int init(ScreenType screenType, int rst, int dc);
-
 
         int get_width();
         int get_height();
@@ -106,8 +109,9 @@ extern "C"
 
         void draw_picture(uint16_t x1, uint16_t y1, uint16_t width, uint16_t height, uint32_t *ptr);
         void draw_pic_roi(uint16_t x, uint16_t y, uint16_t w, uint16_t h, uint16_t rx, uint16_t ry, uint16_t rw, uint16_t rh, uint32_t *ptr);
-        void draw_picture_half(uint16_t x1, uint16_t y1, uint16_t width, uint16_t height,
-                               uint32_t *ptr);
+        void draw_picture_resized(uint16_t x1, uint16_t y1, uint16_t width, uint16_t height, uint32_t *ptr);
+
+        friend int resize(void *ctx);
 
         // For ST7789_240x135_1d14
         friend int init_st7789_240x135(Screen *context);

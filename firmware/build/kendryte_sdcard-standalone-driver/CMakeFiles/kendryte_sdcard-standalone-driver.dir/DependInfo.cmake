@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -21,7 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "KENDRYTE_SDK_TYPE_FREERTOS=2"
   "KENDRYTE_SDK_TYPE_STANDALONE=1"
   "NNCASE_TARGET=k210"
-  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/"
+  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/"
   "SPI_DEVICE_INDEX=SPI_DEVICE_1"
   "TCB_SPAN_NO_CONTRACT_CHECKING"
   "TCB_SPAN_NO_EXCEPTIONS"

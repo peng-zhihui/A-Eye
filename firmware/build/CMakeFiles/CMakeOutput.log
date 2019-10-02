@@ -12,7 +12,7 @@ d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe 
@@ -26,18 +26,18 @@ d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_db410/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_db410.dir/build.make CMakeFiles/cmTC_db410.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj   -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_db410
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj"   -o cmTC_db410 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_0b80b/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_0b80b.dir/build.make CMakeFiles/cmTC_0b80b.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj   -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0b80b
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj"   -o cmTC_0b80b 
 Using built-in specs.
 COLLECT_GCC=D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe
 COLLECT_LTO_WRAPPER=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
@@ -47,24 +47,24 @@ Thread model: posix
 gcc version 8.2.0 (GCC) 
 COMPILER_PATH=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
 LIBRARY_PATH=d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_db410' '-march=rv64imafc' '-mabi=lp64f'
- d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccR9EU2s.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_db410 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_0b80b' '-march=rv64imafc' '-mabi=lp64f'
+ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccX9kKSu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0b80b d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_db410' '-march=rv64imafc' '-mabi=lp64f'
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_0b80b' '-march=rv64imafc' '-mabi=lp64f'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_db410/fast"]
-  ignore line: [D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_db410.dir/build.make CMakeFiles/cmTC_db410.dir/build]
-  ignore line: [make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj   -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_db410]
-  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj"   -o cmTC_db410 ]
+  ignore line: [Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_0b80b/fast"]
+  ignore line: [D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_0b80b.dir/build.make CMakeFiles/cmTC_0b80b.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj   -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0b80b]
+  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj"   -o cmTC_0b80b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
@@ -79,13 +79,13 @@ Parsed C implicit link information from above output:
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/]
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_db410' '-march=rv64imafc' '-mabi=lp64f']
-  link line: [ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccR9EU2s.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_db410 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_0b80b' '-march=rv64imafc' '-mabi=lp64f']
+  link line: [ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccX9kKSu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0b80b d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccR9EU2s.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccX9kKSu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
@@ -93,14 +93,14 @@ Parsed C implicit link information from above output:
     arg [--sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf] ==> ignore
     arg [-melf64lriscv] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_db410] ==> ignore
+    arg [cmTC_0b80b] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib]
-    arg [CMakeFiles/cmTC_db410.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_0b80b.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--start-group] ==> ignore
     arg [-lc] ==> lib [c]
@@ -120,17 +120,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_9cade/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_9cade.dir/build.make CMakeFiles/cmTC_9cade.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9cade.dir/feature_tests.c.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c11 -o CMakeFiles/cmTC_9cade.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9cade
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_9cade.dir/feature_tests.c.obj"   -o cmTC_9cade 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_4050a/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_4050a.dir/build.make CMakeFiles/cmTC_4050a.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4050a.dir/feature_tests.c.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c11 -o CMakeFiles/cmTC_4050a.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4050a
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_4050a.dir/feature_tests.c.obj"   -o cmTC_4050a 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -140,17 +140,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_db92b/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_db92b.dir/build.make CMakeFiles/cmTC_db92b.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db92b.dir/feature_tests.c.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c99 -o CMakeFiles/cmTC_db92b.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_db92b
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_db92b.dir/feature_tests.c.obj"   -o cmTC_db92b 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_52fa2/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_52fa2.dir/build.make CMakeFiles/cmTC_52fa2.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52fa2.dir/feature_tests.c.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c99 -o CMakeFiles/cmTC_52fa2.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_52fa2
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_52fa2.dir/feature_tests.c.obj"   -o cmTC_52fa2 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -160,17 +160,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_afccd/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_afccd.dir/build.make CMakeFiles/cmTC_afccd.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_afccd.dir/feature_tests.c.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c90 -o CMakeFiles/cmTC_afccd.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_afccd
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_afccd.dir/feature_tests.c.obj"   -o cmTC_afccd 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_6d0e0/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_6d0e0.dir/build.make CMakeFiles/cmTC_6d0e0.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d0e0.dir/feature_tests.c.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c90 -o CMakeFiles/cmTC_6d0e0.dir/feature_tests.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6d0e0
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_6d0e0.dir/feature_tests.c.obj"   -o cmTC_6d0e0 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,15 +178,15 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_95ac9/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_95ac9.dir/build.make CMakeFiles/cmTC_95ac9.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_95ac9
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_95ac9 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_fbe7b/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_fbe7b.dir/build.make CMakeFiles/cmTC_fbe7b.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_fbe7b
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_fbe7b 
 Using built-in specs.
 COLLECT_GCC=D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe
 COLLECT_LTO_WRAPPER=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
@@ -196,24 +196,24 @@ Thread model: posix
 gcc version 8.2.0 (GCC) 
 COMPILER_PATH=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
 LIBRARY_PATH=d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/;d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_95ac9' '-march=rv64imafc' '-mabi=lp64f'
- d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccuRRFHl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_95ac9 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_fbe7b' '-march=rv64imafc' '-mabi=lp64f'
+ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccK2ldvg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_fbe7b d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_95ac9' '-march=rv64imafc' '-mabi=lp64f'
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_fbe7b' '-march=rv64imafc' '-mabi=lp64f'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_95ac9/fast"]
-  ignore line: [D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_95ac9.dir/build.make CMakeFiles/cmTC_95ac9.dir/build]
-  ignore line: [make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_95ac9]
-  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_95ac9 ]
+  ignore line: [Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_fbe7b/fast"]
+  ignore line: [D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_fbe7b.dir/build.make CMakeFiles/cmTC_fbe7b.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_fbe7b]
+  ignore line: [cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_fbe7b ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
@@ -228,13 +228,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/]
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
   ignore line: [d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_95ac9' '-march=rv64imafc' '-mabi=lp64f']
-  link line: [ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccuRRFHl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_95ac9 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_fbe7b' '-march=rv64imafc' '-mabi=lp64f']
+  link line: [ d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccK2ldvg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_fbe7b d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc -Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=d:/green/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccuRRFHl.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\ccK2ldvg.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
@@ -242,14 +242,14 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=d:\green\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf] ==> ignore
     arg [-melf64lriscv] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_95ac9] ==> ignore
+    arg [cmTC_fbe7b] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
     arg [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
     arg [-Ld:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> dir [d:/green/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib]
-    arg [CMakeFiles/cmTC_95ac9.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_fbe7b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -271,17 +271,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_08807/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_08807.dir/build.make CMakeFiles/cmTC_08807.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_08807.dir/feature_tests.cxx.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++2a -o CMakeFiles/cmTC_08807.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_08807
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_08807.dir/feature_tests.cxx.obj"   -o cmTC_08807 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_2b63c/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_2b63c.dir/build.make CMakeFiles/cmTC_2b63c.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b63c.dir/feature_tests.cxx.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++2a -o CMakeFiles/cmTC_2b63c.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2b63c
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_2b63c.dir/feature_tests.cxx.obj"   -o cmTC_2b63c 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -344,17 +344,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_e5c8b/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_e5c8b.dir/build.make CMakeFiles/cmTC_e5c8b.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e5c8b.dir/feature_tests.cxx.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++17 -o CMakeFiles/cmTC_e5c8b.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e5c8b
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_e5c8b.dir/feature_tests.cxx.obj"   -o cmTC_e5c8b 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_0a79b/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_0a79b.dir/build.make CMakeFiles/cmTC_0a79b.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a79b.dir/feature_tests.cxx.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++17 -o CMakeFiles/cmTC_0a79b.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0a79b
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_0a79b.dir/feature_tests.cxx.obj"   -o cmTC_0a79b 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -417,17 +417,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_4d9d6/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_4d9d6.dir/build.make CMakeFiles/cmTC_4d9d6.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4d9d6.dir/feature_tests.cxx.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++14 -o CMakeFiles/cmTC_4d9d6.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4d9d6
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_4d9d6.dir/feature_tests.cxx.obj"   -o cmTC_4d9d6 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_bc11b/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_bc11b.dir/build.make CMakeFiles/cmTC_bc11b.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bc11b.dir/feature_tests.cxx.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++14 -o CMakeFiles/cmTC_bc11b.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bc11b
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_bc11b.dir/feature_tests.cxx.obj"   -o cmTC_bc11b 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -490,17 +490,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_3f96a/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_3f96a.dir/build.make CMakeFiles/cmTC_3f96a.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3f96a.dir/feature_tests.cxx.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++11 -o CMakeFiles/cmTC_3f96a.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3f96a
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_3f96a.dir/feature_tests.cxx.obj"   -o cmTC_3f96a 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_5e918/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_5e918.dir/build.make CMakeFiles/cmTC_5e918.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e918.dir/feature_tests.cxx.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++11 -o CMakeFiles/cmTC_5e918.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e918
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_5e918.dir/feature_tests.cxx.obj"   -o cmTC_5e918 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -563,17 +563,17 @@ make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_82144/fast"
-D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_82144.dir/build.make CMakeFiles/cmTC_82144.dir/build
-make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_82144.dir/feature_tests.cxx.obj
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++98 -o CMakeFiles/cmTC_82144.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_82144
-cd C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_82144.dir/feature_tests.cxx.obj"   -o cmTC_82144 
+Run Build Command:"D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_80b6e/fast"
+D:/Green/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_80b6e.dir/build.make CMakeFiles/cmTC_80b6e.dir/build
+make.exe[1]: Entering directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80b6e.dir/feature_tests.cxx.obj
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++98 -o CMakeFiles/cmTC_80b6e.dir/feature_tests.cxx.obj -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_80b6e
+cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_80b6e.dir/feature_tests.cxx.obj"   -o cmTC_80b6e 
 d:/green/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
-make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/CMakeTmp'
+make.exe[1]: Leaving directory 'c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

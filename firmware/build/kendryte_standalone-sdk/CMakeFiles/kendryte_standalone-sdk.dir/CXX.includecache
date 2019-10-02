@@ -226,7 +226,7 @@ cstdio
 stdexcept
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/nncase.cpp
 nncase.h
 -
 kernels/k210/k210_kernels.h
@@ -236,7 +236,7 @@ runtime/target_interpreter.h
 stdio.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp
 kernels/cpu/cpu_kernels.h
 -
 runtime/kernel_registry.h
@@ -244,7 +244,7 @@ runtime/kernel_registry.h
 runtime/cpu/cpu_ops_body.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/interpreter.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/interpreter.cpp
 cassert
 -
 iostream
@@ -254,11 +254,11 @@ runtime/interpreter.h
 runtime/kernel_registry.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
 runtime/k210/interpreter.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
 kernels/k210/k210_kernels.h
 -
 runtime/k210/k210_ops_body.h
@@ -270,7 +270,7 @@ dmac.h
 sysctl.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/kernel_registry.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/kernel_registry.cpp
 runtime/cpu/cpu_ops_body.h
 -
 runtime/k210/k210_ops_body.h
@@ -286,7 +286,7 @@ runtime/runtime_op.def
 runtime/runtime_op.def
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
+C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
 kernels/neutral/neutral_kernels.h
 -
 runtime/kernel_registry.h

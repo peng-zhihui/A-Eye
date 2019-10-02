@@ -1,4 +1,4 @@
-cd "c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build"
+cd "c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build"
 SET ACTEL_FOR_ALTIUM_OVERRIDE= 
 SET ADSK_CLM_WPAD_PROXY_CHECK=FALSE
 SET ALLUSERSPROFILE=C:\ProgramData
@@ -25,7 +25,7 @@ SET KENDRYTE_IDE_LOCAL_PACKAGE_DIR=D:\Green\KendryteIDE\LocalPackage
 SET KENDRYTE_IDE_UPDATER=D:\Green\KendryteIDE\Updater\electron.exe
 SET KENDRYTE_IDE_UPDATER_CONTENT_ROOT=D:\Green\KendryteIDE
 SET KENDRYTE_IDE_UPDATER_IS_BUILT=yes
-SET KENDRYTE_IDE_UPDATER_PIPE=\\?\pipe\C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\57964_updater.sock
+SET KENDRYTE_IDE_UPDATER_PIPE=\\?\pipe\C:\Users\PENGZH~1\AppData\Local\Temp\KendryteIDE_Cache\50431_updater.sock
 SET KENDRYTE_IDE_UPDATER_PIPE_ID=1
 SET KEYSHOT8=C:\Users\Pengzhihui\Documents\KeyShot 8
 SET LOCALAPPDATA=C:\Users\Pengzhihui\AppData\Local
@@ -70,11 +70,11 @@ SET USERPROFILE=C:\Users\Pengzhihui
 SET VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
 SET VSCODE_CWD=C:\WINDOWS\system32
 SET VSCODE_IPC_HOOK=\\.\pipe\4a333cc96d3b17bce5da4ad13e6be33f-1.34.1-beta-main-sock
-SET VSCODE_LOGS=D:\Green\KendryteIDE\UserData\latest\user-data\logs\20191002T203219
+SET VSCODE_LOGS=D:\Green\KendryteIDE\UserData\latest\user-data\logs\20191003T002206
 SET VSCODE_NLS_CONFIG={"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"2ae16f5a9a23c98b985a67d503c3ac22.zh-cn","_translationsConfigFile":"D:\\Green\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\tcf.json","_cacheRoot":"D:\\Green\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn","_resolvedLanguagePackCoreLocation":"D:\\Green\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\e4de46724de34a5f46541818e9fee25971ac9969","_corruptedFile":"D:\\Green\\KendryteIDE\\UserData\\latest\\user-data\\clp\\2ae16f5a9a23c98b985a67d503c3ac22.zh-cn\\corrupted.info","_languagePackSupport":true}
 SET VSCODE_NODE_CACHED_DATA_DIR=D:\Green\KendryteIDE\UserData\latest\user-data\CachedData\e4de46724de34a5f46541818e9fee25971ac9969
 SET VSCODE_PATH=D:\Green\KendryteIDE\Application\app_1.34.1-beta_20190802.2
-SET VSCODE_PID=16096
+SET VSCODE_PID=9752
 SET VSCODE_PORTABLE=D:\Green\KendryteIDE\UserData\latest
 SET WDIR_PADSVX_1_2=E:\WorkSpace\MentorGraphics
 SET windir=C:\WINDOWS
@@ -85,4 +85,4 @@ SET PYTHONDONTWRITEBYTECODE=yes
 SET CMAKE_MAKE_PROGRAM=make
 SET KENDRYTE_IDE=yes
 SET LANG=en_US.utf-8
-"D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" --build c:/Users/Pengzhihui/Desktop/A-Eye-firmware/build -- -j 11
+"D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" --build c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build -- -j 11

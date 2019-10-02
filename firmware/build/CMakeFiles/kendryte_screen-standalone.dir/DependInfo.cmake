@@ -5,10 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/font.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/spi_tft.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/fpioa-config.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/config/ide-hook-main.c" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/font.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/spi_tft.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/fpioa-config.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/config/fpioa-config.c.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/config/ide-hook-main.c" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -22,7 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "KENDRYTE_SDK_TYPE_FREERTOS=2"
   "KENDRYTE_SDK_TYPE_STANDALONE=1"
   "NNCASE_TARGET=k210"
-  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-firmware/"
+  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/"
   "SPI_DEVICE_INDEX=SPI_DEVICE_1"
   "TCB_SPAN_NO_CONTRACT_CHECKING"
   "TCB_SPAN_NO_EXCEPTIONS"
@@ -46,11 +46,11 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/camera/src/ov_camera.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/screen/src/screen.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/3rd_party_libraries/tfcard/src/tfcard.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/a_eye_bsp.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/src/main.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/camera/src/ov_camera.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/screen.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/tfcard/src/tfcard.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/main.cpp" "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -64,7 +64,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "KENDRYTE_SDK_TYPE_FREERTOS=2"
   "KENDRYTE_SDK_TYPE_STANDALONE=1"
   "NNCASE_TARGET=k210"
-  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-firmware/"
+  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/"
   "SPI_DEVICE_INDEX=SPI_DEVICE_1"
   "TCB_SPAN_NO_CONTRACT_CHECKING"
   "TCB_SPAN_NO_EXCEPTIONS"
@@ -90,10 +90,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/DependInfo.cmake"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/DependInfo.cmake"
-  "C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/DependInfo.cmake"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/DependInfo.cmake"
+  "C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

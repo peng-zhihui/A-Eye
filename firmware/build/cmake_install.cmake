@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Pengzhihui/Desktop/A-Eye-firmware
+# Install script for directory: C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,10 +34,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_standalone-sdk/cmake_install.cmake")
-  include("C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_camera-standalone-driver/cmake_install.cmake")
-  include("C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-standalone-driver/cmake_install.cmake")
-  include("C:/Users/Pengzhihui/Desktop/A-Eye-firmware/build/kendryte_sdcard-file-bmp-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_standalone-sdk/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_camera-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-file-bmp-standalone-driver/cmake_install.cmake")
 
 endif()
 
