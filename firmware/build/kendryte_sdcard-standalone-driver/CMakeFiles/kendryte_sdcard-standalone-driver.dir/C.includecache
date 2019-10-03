@@ -92,37 +92,37 @@ stdint.h
 platform.h
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/platform.h
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
 ff.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.h
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
 diskio.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.h
 sdcard.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.h
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
 diskio.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.h
 ff.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.h
 stdarg.h
 -
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
 stdio.h
 -
 dmac.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/dmac.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/dmac.h
 fpioa.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/fpioa.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/fpioa.h
 gpiohs.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/gpiohs.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/gpiohs.h
 sdcard.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.h
 spi.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/spi.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/spi.h
 sysctl.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sysctl.h
+C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sysctl.h
 

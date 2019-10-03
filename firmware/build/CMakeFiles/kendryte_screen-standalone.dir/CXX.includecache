@@ -22,26 +22,6 @@ fpioa.h
 ff.h
 -
 
-../3rd_party_libraries/screen/include/Screen.h
-spi_tft.h
-../3rd_party_libraries/screen/include/spi_tft.h
-stdio.h
--
-string.h
--
-unistd.h
--
-font.h
-../3rd_party_libraries/screen/include/font.h
-sleep.h
-../3rd_party_libraries/screen/include/sleep.h
-stdlib.h
-../3rd_party_libraries/screen/include/stdlib.h
-math.h
-../3rd_party_libraries/screen/include/math.h
-bsp.h
--
-
 ../3rd_party_libraries/screen/include/font.h
 stdint.h
 -
@@ -256,15 +236,11 @@ platform.h
 plic.h
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/screen.cpp
-Screen.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/3rd_party_libraries/screen/src/Screen.h
-
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.cpp
+C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.cpp
 a_eye_bsp.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.h
 
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.h
 bsp.h
 -
 camera.h
@@ -294,13 +270,9 @@ uarths.h
 unistd.h
 -
 screen.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/screen.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/screen.h
 tfcard.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/tfcard.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/tfcard.h
 ov_camera.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/ov_camera.h
-
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/main.cpp
-a_eye_bsp.h
-C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/src/a_eye_bsp.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/ov_camera.h
 

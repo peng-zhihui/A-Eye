@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe
+CMAKE_COMMAND = C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
+RM = C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware
+CMAKE_SOURCE_DIR = C:/Users/80233596/Desktop/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build
+CMAKE_BINARY_DIR = C:/Users/80233596/Desktop/A-Eye/firmware/build
 
 # Include any dependencies generated for this target.
 include kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/depend.make
@@ -59,55 +59,55 @@ include kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/flags.make
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj: ../kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.i"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.i
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.i
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.s"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.s
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.s
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/flags.make
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj: ../kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.i"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.i
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.i
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.s"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.s
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.s
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/flags.make
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj: ../kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.i"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.i
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.i
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.s"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.s
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.s
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/flags.make
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj: ../kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj   -c C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.i"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.i
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c > CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.i
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.s"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.s
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c -o CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.s
 
 # Object files for target kendryte_sdcard-standalone-driver
 kendryte_sdcard__standalone__driver_OBJECTS = \
@@ -125,9 +125,9 @@ kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a: kendry
 kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj
 kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/build.make
 kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libkendryte_sdcard-standalone-driver.a"
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_sdcard-standalone-driver.dir/cmake_clean_target.cmake
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kendryte_sdcard-standalone-driver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libkendryte_sdcard-standalone-driver.a"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_sdcard-standalone-driver.dir/cmake_clean_target.cmake
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kendryte_sdcard-standalone-driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/build: kendryte_sdcard-standalone-driver/libkendryte_sdcard-standalone-driver.a
@@ -135,10 +135,10 @@ kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.d
 .PHONY : kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/build
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/clean:
-	cd C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_sdcard-standalone-driver.dir/cmake_clean.cmake
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_sdcard-standalone-driver.dir/cmake_clean.cmake
 .PHONY : kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/clean
 
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/80233596/Desktop/A-Eye/firmware C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver C:/Users/80233596/Desktop/A-Eye/firmware/build C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake
 .PHONY : kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/depend
 

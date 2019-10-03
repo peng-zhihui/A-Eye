@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe
+CMAKE_COMMAND = C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
+RM = C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware
+CMAKE_SOURCE_DIR = C:/Users/80233596/Desktop/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build
+CMAKE_BINARY_DIR = C:/Users/80233596/Desktop/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build
 # Special rule for the target edit_cache
 edit_cache:
 	@echo "Running CMake cache editor..."
-	D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@echo "Running CMake to regenerate build system..."
-	D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/kendryte_camera-standalone-driver/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build/CMakeFiles 0
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver/CMakeFiles/progress.marks
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/clean
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/preinstall
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/preinstall
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/rule:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/rule
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/rule
 .PHONY : kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ kendryte_camera-standalone-driver: kendryte_camera-standalone-driver/CMakeFiles/
 
 # fast build rule for target.
 kendryte_camera-standalone-driver/fast:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build
 .PHONY : kendryte_camera-standalone-driver/fast
 
 src/camera.obj: src/camera.c.obj
@@ -131,7 +131,7 @@ src/camera.obj: src/camera.c.obj
 
 # target to build an object file
 src/camera.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj
 .PHONY : src/camera.c.obj
 
 src/camera.i: src/camera.c.i
@@ -140,7 +140,7 @@ src/camera.i: src/camera.c.i
 
 # target to preprocess a source file
 src/camera.c.i:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i
 .PHONY : src/camera.c.i
 
 src/camera.s: src/camera.c.s
@@ -149,7 +149,7 @@ src/camera.s: src/camera.c.s
 
 # target to generate assembly for a file
 src/camera.c.s:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s
 .PHONY : src/camera.c.s
 
 src/ov5640.obj: src/ov5640.c.obj
@@ -158,7 +158,7 @@ src/ov5640.obj: src/ov5640.c.obj
 
 # target to build an object file
 src/ov5640.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj
 .PHONY : src/ov5640.c.obj
 
 src/ov5640.i: src/ov5640.c.i
@@ -167,7 +167,7 @@ src/ov5640.i: src/ov5640.c.i
 
 # target to preprocess a source file
 src/ov5640.c.i:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.i
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.i
 .PHONY : src/ov5640.c.i
 
 src/ov5640.s: src/ov5640.c.s
@@ -176,7 +176,7 @@ src/ov5640.s: src/ov5640.c.s
 
 # target to generate assembly for a file
 src/ov5640.c.s:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.s
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(MAKE) -f kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.s
 .PHONY : src/ov5640.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd c:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd c:/Users/80233596/Desktop/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

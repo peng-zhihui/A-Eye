@@ -31,10 +31,10 @@ extern "C"
     extern Camera camera;
 
     void delay(uint64_t msec);
-    void run_on_core1(core_function func, void *ctx);
+    void start_core1(core_function func, void *ctx);
+    int main_core1(void *ctx);
 
     void system_init();
-
 
 #ifdef __cplusplus
 }

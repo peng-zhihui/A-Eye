@@ -73,6 +73,8 @@ extern "C"
         uint16_t start_offset_h;
     } lcd_ctl_t;
 
+    uint16_t rgb_24_to_565(uint8_t r, uint8_t g, uint8_t b);
+
     class Screen
     {
     private:

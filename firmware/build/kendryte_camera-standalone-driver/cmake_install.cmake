@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Pengzhihui/Desktop/A-Eye-Project/firmware/kendryte_libraries/kendryte_camera-standalone-driver
+# Install script for directory: C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

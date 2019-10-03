@@ -246,3 +246,10 @@ void Screen::draw_pic_roi(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
     tft_write_byte((uint8_t *)p, rw * 2); //, ctl.mode ? 2 : 0);
   }
 }
+
+uint16_t rgb_24_to_565(uint8_t r, uint8_t g, uint8_t b)
+{
+  return (uint16_t)(((uint8_t(r) << 8) & 0xF800) |
+                    ((uint8_t(g) << 3) & 0x7E0) |
+                    ((uint8_t(b) >> 3)));
+}

@@ -1,14 +1,12 @@
 #include "a_eye_bsp.h"
 
-// int foo(void *ctx);
-
 int main(void)
 {
   /* init */
   system_init();
 
-  // run_on_core1(foo, (void *)("core1"));
-  // foo((void *)("core0"));
+  /* enable core1 */
+  start_core1(main_core1, (void *)("Hello, world! From core1"));
 
   /* loop start */
   while (true)
@@ -28,18 +26,14 @@ int main(void)
   return 0;
 }
 
-int foo(void *ctx)
+int main_core1(void *ctx)
 {
-  uint64_t core_id = current_coreid();
-
-  if (core_id == 0)
+  while (true)
   {
-  }
-  else
-  {
-  }
+    printf("%s\n", (char *)ctx);
 
-  printf("Hello, world! From %s\n", (char *)ctx);
+    delay(1000);
+  }
 
   return 0;
 }

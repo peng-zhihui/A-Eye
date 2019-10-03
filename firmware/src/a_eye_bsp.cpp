@@ -16,7 +16,8 @@ void system_init()
   /* LCD init */
   printf("LCD init...\n");
   lcd.init(ST7789_240x135_1d14);
-  lcd.clear(WHITE);
+  lcd.clear(BLACK);
+  lcd.draw_string(0, 120, "Previewing @ 320x240", WHITE);
   msleep(100);
 
   uint8_t res;
@@ -38,4 +39,4 @@ void system_init()
 
 void delay(uint64_t msec) { msleep(msec); }
 
-void run_on_core1(core_function func, void *ctx) { register_core1(func, ctx); }
+void start_core1(core_function func, void *ctx) { register_core1(func, ctx); }
