@@ -35,6 +35,7 @@ extern "C"
     int main_core1(void *ctx);
 
     void system_init();
+    void set_led(float percent);
 
 #ifdef __cplusplus
 }

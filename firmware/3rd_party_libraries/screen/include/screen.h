@@ -10,6 +10,7 @@
 #include "stdlib.h"
 #include "math.h"
 #include <bsp.h>
+#include <pwm.h>
 
 #define BLACK 0x0000
 #define NAVY 0x000F
@@ -114,6 +115,8 @@ extern "C"
         void draw_picture_resized(uint16_t x1, uint16_t y1, uint16_t width, uint16_t height, uint32_t *ptr);
 
         friend int resize(void *ctx);
+
+        void set_backlight(float percent);
 
         // For ST7789_240x135_1d14
         friend int init_st7789_240x135(Screen *context);

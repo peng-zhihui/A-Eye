@@ -68,9 +68,9 @@ CMAKE_BINARY_DIR = C:/Users/80233596/Desktop/A-Eye/firmware/build
 # Target rules for target CMakeFiles/kendryte_screen-standalone.dir
 
 # All Build rule for target.
+CMakeFiles/kendryte_screen-standalone.dir/all: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/all
 CMakeFiles/kendryte_screen-standalone.dir/all: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/all
 CMakeFiles/kendryte_screen-standalone.dir/all: kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/all
-CMakeFiles/kendryte_screen-standalone.dir/all: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/all
 CMakeFiles/kendryte_screen-standalone.dir/all: kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/all
 	$(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/depend
 	$(MAKE) -f CMakeFiles/kendryte_screen-standalone.dir/build.make CMakeFiles/kendryte_screen-standalone.dir/build

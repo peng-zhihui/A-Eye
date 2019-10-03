@@ -57,22 +57,9 @@ include kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-
 # Include the compile flags for this target's objects.
 include kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/flags.make
 
-kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/flags.make
-kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj: ../kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
-
-kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c > CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i
-
-kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s
-
 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/flags.make
 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj: ../kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.c
 
 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.i: cmake_force
@@ -83,16 +70,29 @@ kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.d
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.c -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.s
 
+kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/flags.make
+kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj: ../kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
+
+kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c > CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.i
+
+kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c -o CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.s
+
 # Object files for target kendryte_camera-standalone-driver
 kendryte_camera__standalone__driver_OBJECTS = \
-"CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj" \
-"CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj"
+"CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj" \
+"CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj"
 
 # External object files for target kendryte_camera-standalone-driver
 kendryte_camera__standalone__driver_EXTERNAL_OBJECTS =
 
-kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj
 kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj
+kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj
 kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/build.make
 kendryte_camera-standalone-driver/libkendryte_camera-standalone-driver.a: kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libkendryte_camera-standalone-driver.a"

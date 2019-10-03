@@ -55,6 +55,11 @@ int Screen::init(ScreenType screenType, int rst, int dc)
   fpioa_set_function(rst, _fpioa_function(FUNC_GPIOHS0 + RST_GPIONUM));
   fpioa_set_function(dc, _fpioa_function(FUNC_GPIOHS0 + DCX_GPIONUM));
 
+  // backlight-led pwm init, uses io23/pwm1_ch0
+  pwm_init(PWM_DEVICE_1);
+  pwm_set_frequency(PWM_DEVICE_1, PWM_CHANNEL_0, 100000, 0.5);
+  pwm_set_enable(PWM_DEVICE_1, PWM_CHANNEL_0, 1);
+
   int ret = -1;
   switch (screenType)
   {
@@ -245,6 +250,11 @@ void Screen::draw_pic_roi(uint16_t x, uint16_t y, uint16_t w, uint16_t h,
     set_area(x, y + y_oft, x + rw - 1, y + y_oft);
     tft_write_byte((uint8_t *)p, rw * 2); //, ctl.mode ? 2 : 0);
   }
+}
+
+void Screen::set_backlight(float percent)
+{
+  pwm_set_frequency(PWM_DEVICE_1, PWM_CHANNEL_0, 100000, percent);
 }
 
 uint16_t rgb_24_to_565(uint8_t r, uint8_t g, uint8_t b)

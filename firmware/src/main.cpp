@@ -28,11 +28,26 @@ int main(void)
 
 int main_core1(void *ctx)
 {
+  double cnt = 0.01;
+  int flag = 0;
+
   while (true)
   {
-    printf("%s\n", (char *)ctx);
+    flag ? (cnt -= 0.01) : (cnt += 0.01);
+    if (cnt > 1.0)
+    {
+      cnt = 1.0;
+      flag = 1;
+    }
+    else if (cnt < 0.0)
+    {
+      cnt = 0.0;
+      flag = 0;
+    }
 
-    delay(1000);
+    set_led(cnt);
+
+    delay(30);
   }
 
   return 0;

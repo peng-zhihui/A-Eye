@@ -109,22 +109,9 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/src/main.cpp -o CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.s
 
-CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
-CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/src/screen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj -c C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp
-
-CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i: cmake_force
-	@echo "Preprocessing CXX source to CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp > CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i
-
-CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s: cmake_force
-	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s
-
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj: ../3rd_party_libraries/screen/src/font.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/font.c
 
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.i: cmake_force
@@ -134,6 +121,19 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/font.c -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.s
+
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/src/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj -c C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp
+
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp > CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i
+
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/3rd_party_libraries/screen/src/screen.cpp -o CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s
 
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj: CMakeFiles/kendryte_screen-standalone.dir/flags.make
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj: ../3rd_party_libraries/screen/src/spi_tft.c
@@ -180,8 +180,8 @@ kendryte_screen__standalone_OBJECTS = \
 "CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj" \
-"CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj" \
+"CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj" \
 "CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj"
@@ -193,8 +193,8 @@ kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/config/fpi
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/config/ide-hook-main.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj
-kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/font.c.obj
+kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj
 kendryte_screen-standalone: CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj

@@ -66,6 +66,7 @@ CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
+CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/pwm.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
 CMakeFiles/kendryte_screen-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj: ../3rd_party_libraries/screen/src/screen.cpp
 
@@ -113,6 +114,7 @@ CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_lib
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
+CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/pwm.h
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
 CMakeFiles/kendryte_screen-standalone.dir/src/a_eye_bsp.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/uarths.h
@@ -146,6 +148,7 @@ CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_librarie
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
+CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/pwm.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
 CMakeFiles/kendryte_screen-standalone.dir/src/main.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/uarths.h

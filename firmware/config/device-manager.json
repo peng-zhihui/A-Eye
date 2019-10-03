@@ -17,6 +17,8 @@
         "SPI1_SCLK": "A7",
         "SPI1_D0": "B6",
         "SPI1_D1": "A6",
-        "GPIOHS7": "B7"
+        "GPIOHS7": "B7",
+        "TIMER1_TOGGLE1": "A9",
+        "TIMER1_TOGGLE2": "J12"
     }
 }

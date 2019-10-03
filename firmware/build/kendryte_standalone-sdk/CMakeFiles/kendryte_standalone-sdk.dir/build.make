@@ -122,22 +122,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/locks.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i: cmake_force
@@ -147,6 +134,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/printf.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/sleep.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/syscalls.c
@@ -265,22 +265,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/fpioa.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpiohs.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i: cmake_force
@@ -293,7 +280,7 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpioh
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2c.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.i: cmake_force
@@ -306,7 +293,7 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2s.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.i: cmake_force
@@ -316,6 +303,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/i2s.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/gpio.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/kpu.c
@@ -343,22 +343,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/plic.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.i: cmake_force
@@ -368,6 +355,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/pwm.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/rtc.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/sha256.c
@@ -421,22 +421,9 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/timer.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
-
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
-
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.i: cmake_force
@@ -447,22 +434,22 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uart.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i: cmake_force
-	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
 
-kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s: cmake_force
-	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s"
-	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/uarths.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.i: cmake_force
@@ -472,6 +459,19 @@ kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s"
 	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/wdt.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/80233596/Desktop/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj   -c C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i: cmake_force
+	@echo "Preprocessing C source to CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c > CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i
+
+kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s: cmake_force
+	@echo "Compiling C source to assembly CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s"
+	cd C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk && C:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/utils.c -o CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s
 
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/flags.make
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj: ../kendryte_libraries/kendryte_standalone-sdk/lib/nncase/runtime/interpreter.cpp
@@ -558,8 +558,8 @@ kendryte_standalone__sdk_OBJECTS = \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj" \
@@ -569,22 +569,22 @@ kendryte_standalone__sdk_OBJECTS = \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj" \
-"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj" \
+"CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj" \
 "CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj" \
@@ -600,8 +600,8 @@ kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CM
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
@@ -611,22 +611,22 @@ kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CM
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj
-kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj
+kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj
 kendryte_standalone-sdk/libkendryte_standalone-sdk.a: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj

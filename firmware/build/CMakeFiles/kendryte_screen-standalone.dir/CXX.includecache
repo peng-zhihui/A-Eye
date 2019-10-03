@@ -45,6 +45,8 @@ math.h
 ../3rd_party_libraries/screen/include/math.h
 bsp.h
 -
+pwm.h
+-
 
 ../3rd_party_libraries/screen/include/spi_tft.h
 stdint.h
@@ -212,6 +214,12 @@ encoding.h
 platform.h
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/platform.h
 
+../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/pwm.h
+stddef.h
+-
+stdint.h
+-
+
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
 stddef.h
 -
@@ -235,10 +243,6 @@ platform.h
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/platform.h
 plic.h
 ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
-
-C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.cpp
-a_eye_bsp.h
-C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.h
 
 C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.h
 bsp.h
@@ -275,4 +279,8 @@ tfcard.h
 C:/Users/80233596/Desktop/A-Eye/firmware/src/tfcard.h
 ov_camera.h
 C:/Users/80233596/Desktop/A-Eye/firmware/src/ov_camera.h
+
+C:/Users/80233596/Desktop/A-Eye/firmware/src/main.cpp
+a_eye_bsp.h
+C:/Users/80233596/Desktop/A-Eye/firmware/src/a_eye_bsp.h
 
