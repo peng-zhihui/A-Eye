@@ -1,2 +1,4 @@
 # A-Eye
-an spuer mini AI-camera project
+a spuer mini AI-camera project
+
+TO BE DONE...
