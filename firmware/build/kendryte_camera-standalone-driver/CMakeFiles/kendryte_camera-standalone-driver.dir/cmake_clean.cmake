@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj"
   "CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj"
+  "CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj"
   "libkendryte_camera-standalone-driver.pdb"
   "libkendryte_camera-standalone-driver.a"
 )

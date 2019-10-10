@@ -65,8 +65,8 @@ include_directories(
 ## [/section] Header
 ## [section] Source
 ## add source from config json (2 files matched)
-add_source_file(src/ov5640.c)
 add_source_file(src/camera.c)
+add_source_file(src/ov5640.c)
 ## [/section] Source
 # [/section] Project
 

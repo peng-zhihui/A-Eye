@@ -1,28 +1,14 @@
 {
     "files.associations": {
-        "icon_generate.h": "c",
-        "rgb2bmp.h": "c",
-        "fpioa.h": "c",
-        "uarths.h": "c",
-        "sysctl.h": "c",
-        "sdcard.h": "c",
-        "plic.h": "c",
+        "nt35310.h": "c",
+        "kpu.h": "c",
+        "region_layer.h": "c",
         "lcd.h": "c",
-        "unistd.h": "c",
-        "spi.h": "c",
-        "array": "cpp",
-        "functional": "cpp",
-        "istream": "cpp",
-        "ostream": "cpp",
-        "tuple": "cpp",
-        "type_traits": "cpp",
-        "utility": "cpp",
-        "sleep.h": "c",
-        "stdio.h": "c",
-        "spi_tft.h": "c",
-        "stdint.h": "c",
-        "*.tcc": "cpp",
-        "sstream": "cpp",
-        "random": "cpp"
+        "utils.h": "c",
+        "flash-manager.h": "c",
+        "w25qxx.h": "c",
+        "stdlib.h": "c",
+        "fpioa.h": "c",
+        "fpioa-config.h": "c"
     }
 }

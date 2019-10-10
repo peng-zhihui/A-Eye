@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_standalone-sdk
+# Install script for directory: C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_standalone-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/kendryte_screen-standalone")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/kendryte_kpu-standalone")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

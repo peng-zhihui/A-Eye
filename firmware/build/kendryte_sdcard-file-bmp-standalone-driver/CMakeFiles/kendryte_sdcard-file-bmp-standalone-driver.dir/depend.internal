@@ -6,4 +6,4 @@ kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-s
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ff.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ffconf.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
- C:/Users/80233596/Desktop/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/src/rgb2bmp.c
+ C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/src/rgb2bmp.c

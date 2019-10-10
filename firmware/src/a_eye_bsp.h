@@ -20,6 +20,7 @@
 #include "screen.h"
 #include "tfcard.h"
 #include "ov_camera.h"
+#include "kpu_wrapper.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -29,6 +30,7 @@ extern "C"
     extern Screen lcd;
     extern TFcard tfcard;
     extern Camera camera;
+    extern KPU nn;
 
     void delay(uint64_t msec);
     void start_core1(core_function func, void *ctx);

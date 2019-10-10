@@ -1,0 +1,17 @@
+{
+    "name": "kendryte/ai_image",
+    "version": "develop",
+    "type": "library",
+    "dependency": {
+    },
+    "source": [
+        "src/*.c"
+    ],
+    "include": [
+        "include"
+    ],
+    "header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}

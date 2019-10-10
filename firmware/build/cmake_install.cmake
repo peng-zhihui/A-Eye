@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/80233596/Desktop/A-Eye/firmware
+# Install script for directory: C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/kendryte_screen-standalone")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/kendryte_kpu-standalone")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,10 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_standalone-sdk/cmake_install.cmake")
-  include("C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_camera-standalone-driver/cmake_install.cmake")
-  include("C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-standalone-driver/cmake_install.cmake")
-  include("C:/Users/80233596/Desktop/A-Eye/firmware/build/kendryte_sdcard-file-bmp-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_standalone-sdk/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_camera-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_sdcard-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_sdcard-file-bmp-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver/cmake_install.cmake")
+  include("C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_ai_image/cmake_install.cmake")
 
 endif()
 

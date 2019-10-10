@@ -1,0 +1,20 @@
+{
+    "$schema": "vscode://schemas/CMakeLists",
+    "name": "kendryte/w25qxx-standalone-driver",
+    "version": "develop",
+    "source": [
+        "src/w25qxx.c",
+        "src/w25qxx_dma.c"
+    ],
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection",
+    "header": [
+        "include"
+    ],
+    "type": "library",
+    "include": [
+        "include"
+    ]
+}

@@ -137,7 +137,7 @@ static void sd_end_cmd(void)
 static uint8_t sd_get_response(void)
 {
     uint8_t result;
-    uint16_t timeout = 0x0FF;
+    uint16_t timeout = 0x0FFF;
     /*!< Check if response is got or a timeout is happen */
     while(timeout--)
     {

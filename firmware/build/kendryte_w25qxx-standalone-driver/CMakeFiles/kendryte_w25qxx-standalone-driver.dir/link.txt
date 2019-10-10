@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_w25qxx-standalone-driver.a  CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_w25qxx-standalone-driver.a

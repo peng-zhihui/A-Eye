@@ -3,12 +3,14 @@
 Screen lcd;
 TFcard tfcard;
 Camera camera;
+KPU nn;
 
 void system_init()
 {
   /* Set CPU and dvp clk */
   sysctl_pll_set_freq(SYSCTL_PLL0, 600000000UL); // core0
-  sysctl_pll_set_freq(SYSCTL_PLL1, 600000000UL); // core1
+  sysctl_pll_set_freq(SYSCTL_PLL1, 400000000UL); // core1
+  sysctl_set_spi0_dvp_data(1);
 
   uarths_init();
   plic_init();
@@ -26,15 +28,21 @@ void system_init()
   lcd.draw_string(0, 120, "Previewing @ 320x240", WHITE);
   msleep(100);
 
-  uint8_t res;
+  /* Flash init */
+  printf("flash init\n");
+  w25qxx_init(3, 0, 40000000);
+  w25qxx_read_data(KMODEL_START, nn.model, KMODEL_SIZE);
 
   /* TF-Card init */
   printf("TF-Card init...\n");
-  res = tfcard.init();
+  tfcard.init();
 
   /* Camera init */
   printf("Camera init...\n");
   camera.init();
+
+  /* KPU init */
+  nn.init();
 
   /* enable global interrupt */
   sysctl_enable_irq();

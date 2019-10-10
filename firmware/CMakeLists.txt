@@ -27,7 +27,7 @@ set(CMAKE_MODULE_LINKER_FLAGS "")
 
 
 cmake_minimum_required(VERSION 3.0.0)
-set(PROJECT_NAME "kendryte_screen-standalone")
+set(PROJECT_NAME "kendryte_kpu-standalone")
 # [/section] Head
 
 # [section] Init
@@ -209,6 +209,7 @@ include_directories(
   "${CMAKE_CURRENT_LIST_DIR}/3rd_party_libraries/screen/include"
   "${CMAKE_CURRENT_LIST_DIR}/3rd_party_libraries/tfcard/include"
   "${CMAKE_CURRENT_LIST_DIR}/3rd_party_libraries/camera/include"
+  "${CMAKE_CURRENT_LIST_DIR}/3rd_party_libraries/kpu/include"
 )### from ide
 include_directories("${CMAKE_CURRENT_LIST_DIR}/config")
 ## from project public
@@ -216,11 +217,13 @@ include_directories(
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_camera-standalone-driver/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_sdcard-standalone-driver/include"
+  "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_w25qxx-standalone-driver/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/utils/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/third_party/xtl/include"
   "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_standalone-sdk/lib/nncase/include"
+  "${CMAKE_CURRENT_LIST_DIR}/kendryte_libraries/kendryte_ai_image/include"
 )
 ## [/section] Header
 ## [section] Source
@@ -229,11 +232,11 @@ add_source_file(config/fpioa-config.c)
 add_source_file(config/ide-hook-main.c)
 add_source_file(src/a_eye_bsp.cpp)
 add_source_file(src/main.cpp)
-add_source_file(3rd_party_libraries/screen/src/font.c)
 add_source_file(3rd_party_libraries/screen/src/screen.cpp)
 add_source_file(3rd_party_libraries/screen/src/spi_tft.c)
 add_source_file(3rd_party_libraries/tfcard/src/tfcard.cpp)
 add_source_file(3rd_party_libraries/camera/src/ov_camera.cpp)
+add_source_file(3rd_party_libraries/kpu/src/kpu_wrapper.cpp)
 ## [/section] Source
 # [/section] Project
 
@@ -241,7 +244,7 @@ add_source_file(3rd_party_libraries/camera/src/ov_camera.cpp)
 
 # [/section] Custom
 # [section] Target
-## final create kendryte_screen-standalone executable
+## final create kendryte_kpu-standalone executable
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_compile_definitions(${PROJECT_NAME} PRIVATE "PROJECT_PATH=${CMAKE_CURRENT_LIST_DIR}/")
 ### [section] Custom2
@@ -267,6 +270,8 @@ add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_standal
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_camera-standalone-driver" "kendryte_camera-standalone-driver")
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_sdcard-standalone-driver" "kendryte_sdcard-standalone-driver")
 add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver" "kendryte_sdcard-file-bmp-standalone-driver")
+add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_w25qxx-standalone-driver" "kendryte_w25qxx-standalone-driver")
+add_subdirectory("${CMAKE_CURRENT_LIST_DIR}//kendryte_libraries/kendryte_ai_image" "kendryte_ai_image")
 ## add simple folder dependency
 # [/section] Dependency
 
@@ -288,8 +293,12 @@ target_link_options(${PROJECT_NAME} PUBLIC
 	"-Wl,--gc-sections"
 )
 target_link_libraries(${PROJECT_NAME} PUBLIC -Wl,--start-group
-	## -> kendryte/screen-standalone: kendryte_screen-standalone
+	## -> kendryte/kpu-standalone: kendryte_kpu-standalone
 	##	not link component
+	## -> kendryte/ai_image: kendryte_ai_image
+	"kendryte_ai_image"
+	## -> kendryte/w25qxx-standalone-driver: kendryte_w25qxx-standalone-driver
+	"kendryte_w25qxx-standalone-driver"
 	## -> kendryte/sdcard-file-bmp-standalone-driver: kendryte_sdcard-file-bmp-standalone-driver
 	"kendryte_sdcard-file-bmp-standalone-driver"
 	## -> kendryte/sdcard-standalone-driver: kendryte_sdcard-standalone-driver

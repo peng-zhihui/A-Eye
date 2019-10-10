@@ -7,27 +7,29 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCInformation.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU.cmake"
-  "C:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Platform/Generic.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.13.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
+  "../kendryte_libraries/kendryte_ai_image/CMakeLists.txt"
   "../kendryte_libraries/kendryte_camera-standalone-driver/CMakeLists.txt"
   "../kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/CMakeLists.txt"
   "../kendryte_libraries/kendryte_sdcard-standalone-driver/CMakeLists.txt"
   "../kendryte_libraries/kendryte_standalone-sdk/CMakeLists.txt"
+  "../kendryte_libraries/kendryte_w25qxx-standalone-driver/CMakeLists.txt"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCInformation.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU-C.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Compiler/GNU.cmake"
+  "D:/Green/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/Platform/Generic.cmake"
   )
 
 # The corresponding makefile is:
@@ -43,13 +45,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "kendryte_camera-standalone-driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "kendryte_sdcard-standalone-driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "kendryte_w25qxx-standalone-driver/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "kendryte_ai_image/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/kendryte_screen-standalone.dir/DependInfo.cmake"
+  "CMakeFiles/kendryte_kpu-standalone.dir/DependInfo.cmake"
   "kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/DependInfo.cmake"
   "kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/DependInfo.cmake"
   "kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/DependInfo.cmake"
   "kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/DependInfo.cmake"
+  "kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/DependInfo.cmake"
+  "kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/DependInfo.cmake"
   )
