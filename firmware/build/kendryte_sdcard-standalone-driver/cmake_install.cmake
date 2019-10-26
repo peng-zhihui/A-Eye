@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-standalone-driver
+# Install script for directory: C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

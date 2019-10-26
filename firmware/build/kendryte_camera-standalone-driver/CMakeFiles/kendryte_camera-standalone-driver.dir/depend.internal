@@ -10,9 +10,9 @@ kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.d
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/gpiohs.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.h
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/camera.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.h
 kendryte_camera-standalone-driver/CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/dvp.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.c
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.h
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_camera-standalone-driver/src/ov5640.h

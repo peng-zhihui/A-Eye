@@ -48,10 +48,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver/CMakeFiles/progress.marks
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/clean
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/rule:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/rule
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/rule
 .PHONY : kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ kendryte_w25qxx-standalone-driver: kendryte_w25qxx-standalone-driver/CMakeFiles/
 
 # fast build rule for target.
 kendryte_w25qxx-standalone-driver/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build
 .PHONY : kendryte_w25qxx-standalone-driver/fast
 
 src/w25qxx.obj: src/w25qxx.c.obj
@@ -131,7 +131,7 @@ src/w25qxx.obj: src/w25qxx.c.obj
 
 # target to build an object file
 src/w25qxx.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj
 .PHONY : src/w25qxx.c.obj
 
 src/w25qxx.i: src/w25qxx.c.i
@@ -140,7 +140,7 @@ src/w25qxx.i: src/w25qxx.c.i
 
 # target to preprocess a source file
 src/w25qxx.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i
 .PHONY : src/w25qxx.c.i
 
 src/w25qxx.s: src/w25qxx.c.s
@@ -149,7 +149,7 @@ src/w25qxx.s: src/w25qxx.c.s
 
 # target to generate assembly for a file
 src/w25qxx.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s
 .PHONY : src/w25qxx.c.s
 
 src/w25qxx_dma.obj: src/w25qxx_dma.c.obj
@@ -158,7 +158,7 @@ src/w25qxx_dma.obj: src/w25qxx_dma.c.obj
 
 # target to build an object file
 src/w25qxx_dma.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj
 .PHONY : src/w25qxx_dma.c.obj
 
 src/w25qxx_dma.i: src/w25qxx_dma.c.i
@@ -167,7 +167,7 @@ src/w25qxx_dma.i: src/w25qxx_dma.c.i
 
 # target to preprocess a source file
 src/w25qxx_dma.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i
 .PHONY : src/w25qxx_dma.c.i
 
 src/w25qxx_dma.s: src/w25qxx_dma.c.s
@@ -176,7 +176,7 @@ src/w25qxx_dma.s: src/w25qxx_dma.c.s
 
 # target to generate assembly for a file
 src/w25qxx_dma.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s
 .PHONY : src/w25qxx_dma.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

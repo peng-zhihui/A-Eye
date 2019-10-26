@@ -48,10 +48,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_ai_image/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_ai_image/CMakeFiles/progress.marks
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/clean
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/rule:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/rule
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/rule
 .PHONY : kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ kendryte_ai_image: kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/rule
 
 # fast build rule for target.
 kendryte_ai_image/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build
 .PHONY : kendryte_ai_image/fast
 
 src/image_process.obj: src/image_process.c.obj
@@ -131,7 +131,7 @@ src/image_process.obj: src/image_process.c.obj
 
 # target to build an object file
 src/image_process.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.obj
 .PHONY : src/image_process.c.obj
 
 src/image_process.i: src/image_process.c.i
@@ -140,7 +140,7 @@ src/image_process.i: src/image_process.c.i
 
 # target to preprocess a source file
 src/image_process.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.i
 .PHONY : src/image_process.c.i
 
 src/image_process.s: src/image_process.c.s
@@ -149,7 +149,7 @@ src/image_process.s: src/image_process.c.s
 
 # target to generate assembly for a file
 src/image_process.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.s
 .PHONY : src/image_process.c.s
 
 src/region_layer.obj: src/region_layer.c.obj
@@ -158,7 +158,7 @@ src/region_layer.obj: src/region_layer.c.obj
 
 # target to build an object file
 src/region_layer.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.obj
 .PHONY : src/region_layer.c.obj
 
 src/region_layer.i: src/region_layer.c.i
@@ -167,7 +167,7 @@ src/region_layer.i: src/region_layer.c.i
 
 # target to preprocess a source file
 src/region_layer.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.i
 .PHONY : src/region_layer.c.i
 
 src/region_layer.s: src/region_layer.c.s
@@ -176,7 +176,7 @@ src/region_layer.s: src/region_layer.c.s
 
 # target to generate assembly for a file
 src/region_layer.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/build.make kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.s
 .PHONY : src/region_layer.c.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

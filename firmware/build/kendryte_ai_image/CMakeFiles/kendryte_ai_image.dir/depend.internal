@@ -3,7 +3,7 @@
 
 kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/image_process.c.obj
  ../kendryte_libraries/kendryte_ai_image/include/image_process.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_ai_image/src/image_process.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_ai_image/src/image_process.c
 kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.obj
  ../kendryte_libraries/kendryte_ai_image/include/region_layer.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
@@ -12,4 +12,4 @@ kendryte_ai_image/CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/io.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/kpu.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_ai_image/src/region_layer.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_ai_image/src/region_layer.c

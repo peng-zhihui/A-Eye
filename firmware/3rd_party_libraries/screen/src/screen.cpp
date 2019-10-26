@@ -230,7 +230,7 @@ void Screen::draw_picture_resized(uint16_t x1, uint16_t y1, uint16_t width,
   for (float col = 0; col < width; col++)
     for (float row = 0; row < height; row++)
       Screen::resized_frame[int(row * width + col)] =
-          *(p16 + int(roundf((row * 320 * rh) + col * rw)));
+          *(p16 + int((row * 320 * rh) + col * rw));
 
   set_area(x1, y1, x1 + width - 1, y1 + height - 1);
   tft_write_half(Screen::resized_frame, width * height);

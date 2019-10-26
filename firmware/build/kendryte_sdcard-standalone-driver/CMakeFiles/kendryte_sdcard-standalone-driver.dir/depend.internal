@@ -5,18 +5,18 @@ kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.d
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ff.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ffconf.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ccsbcs.c
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/diskio.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/sdcard.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/diskio.c
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/diskio.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ff.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ffconf.h
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/ff.c
 kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj
  ../kendryte_libraries/kendryte_sdcard-standalone-driver/include/sdcard.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
@@ -29,4 +29,4 @@ kendryte_sdcard-standalone-driver/CMakeFiles/kendryte_sdcard-standalone-driver.d
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/plic.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_sdcard-standalone-driver/src/sdcard.c

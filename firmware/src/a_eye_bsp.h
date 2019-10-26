@@ -22,22 +22,26 @@
 #include "ov_camera.h"
 #include "kpu_wrapper.h"
 
+void o()
+{
+}
+
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-    extern Screen lcd;
-    extern TFcard tfcard;
-    extern Camera camera;
-    extern KPU nn;
+extern Screen lcd;
+extern TFcard tfcard;
+extern Camera camera;
+extern KPU nn;
 
-    void delay(uint64_t msec);
-    void start_core1(core_function func, void *ctx);
-    int main_core1(void *ctx);
+void delay(uint64_t msec);
+void start_core1(core_function func, void *ctx);
+int main_core1(void *ctx);
 
-    void system_init();
-    void set_led(float percent);
+void system_init();
+void set_led(float percent);
 
 #ifdef __cplusplus
 }

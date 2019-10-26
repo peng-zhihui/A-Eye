@@ -48,10 +48,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_standalone-sdk/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_standalone-sdk/CMakeFiles/progress.marks
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/clean
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/rule:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/rule
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/rule
 .PHONY : kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ kendryte_standalone-sdk: kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-
 
 # fast build rule for target.
 kendryte_standalone-sdk/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build
 .PHONY : kendryte_standalone-sdk/fast
 
 lib/bsp/crt.obj: lib/bsp/crt.S.obj
@@ -131,7 +131,7 @@ lib/bsp/crt.obj: lib/bsp/crt.S.obj
 
 # target to build an object file
 lib/bsp/crt.S.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.obj
 .PHONY : lib/bsp/crt.S.obj
 
 lib/bsp/crt.i: lib/bsp/crt.S.i
@@ -140,7 +140,7 @@ lib/bsp/crt.i: lib/bsp/crt.S.i
 
 # target to preprocess a source file
 lib/bsp/crt.S.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.i
 .PHONY : lib/bsp/crt.S.i
 
 lib/bsp/crt.s: lib/bsp/crt.S.s
@@ -149,7 +149,7 @@ lib/bsp/crt.s: lib/bsp/crt.S.s
 
 # target to generate assembly for a file
 lib/bsp/crt.S.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/crt.S.s
 .PHONY : lib/bsp/crt.S.s
 
 lib/bsp/entry.obj: lib/bsp/entry.c.obj
@@ -158,7 +158,7 @@ lib/bsp/entry.obj: lib/bsp/entry.c.obj
 
 # target to build an object file
 lib/bsp/entry.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.obj
 .PHONY : lib/bsp/entry.c.obj
 
 lib/bsp/entry.i: lib/bsp/entry.c.i
@@ -167,7 +167,7 @@ lib/bsp/entry.i: lib/bsp/entry.c.i
 
 # target to preprocess a source file
 lib/bsp/entry.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.i
 .PHONY : lib/bsp/entry.c.i
 
 lib/bsp/entry.s: lib/bsp/entry.c.s
@@ -176,7 +176,7 @@ lib/bsp/entry.s: lib/bsp/entry.c.s
 
 # target to generate assembly for a file
 lib/bsp/entry.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry.c.s
 .PHONY : lib/bsp/entry.c.s
 
 lib/bsp/entry_user.obj: lib/bsp/entry_user.c.obj
@@ -185,7 +185,7 @@ lib/bsp/entry_user.obj: lib/bsp/entry_user.c.obj
 
 # target to build an object file
 lib/bsp/entry_user.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.obj
 .PHONY : lib/bsp/entry_user.c.obj
 
 lib/bsp/entry_user.i: lib/bsp/entry_user.c.i
@@ -194,7 +194,7 @@ lib/bsp/entry_user.i: lib/bsp/entry_user.c.i
 
 # target to preprocess a source file
 lib/bsp/entry_user.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.i
 .PHONY : lib/bsp/entry_user.c.i
 
 lib/bsp/entry_user.s: lib/bsp/entry_user.c.s
@@ -203,7 +203,7 @@ lib/bsp/entry_user.s: lib/bsp/entry_user.c.s
 
 # target to generate assembly for a file
 lib/bsp/entry_user.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/entry_user.c.s
 .PHONY : lib/bsp/entry_user.c.s
 
 lib/bsp/interrupt.obj: lib/bsp/interrupt.c.obj
@@ -212,7 +212,7 @@ lib/bsp/interrupt.obj: lib/bsp/interrupt.c.obj
 
 # target to build an object file
 lib/bsp/interrupt.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.obj
 .PHONY : lib/bsp/interrupt.c.obj
 
 lib/bsp/interrupt.i: lib/bsp/interrupt.c.i
@@ -221,7 +221,7 @@ lib/bsp/interrupt.i: lib/bsp/interrupt.c.i
 
 # target to preprocess a source file
 lib/bsp/interrupt.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.i
 .PHONY : lib/bsp/interrupt.c.i
 
 lib/bsp/interrupt.s: lib/bsp/interrupt.c.s
@@ -230,7 +230,7 @@ lib/bsp/interrupt.s: lib/bsp/interrupt.c.s
 
 # target to generate assembly for a file
 lib/bsp/interrupt.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/interrupt.c.s
 .PHONY : lib/bsp/interrupt.c.s
 
 lib/bsp/locks.obj: lib/bsp/locks.c.obj
@@ -239,7 +239,7 @@ lib/bsp/locks.obj: lib/bsp/locks.c.obj
 
 # target to build an object file
 lib/bsp/locks.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.obj
 .PHONY : lib/bsp/locks.c.obj
 
 lib/bsp/locks.i: lib/bsp/locks.c.i
@@ -248,7 +248,7 @@ lib/bsp/locks.i: lib/bsp/locks.c.i
 
 # target to preprocess a source file
 lib/bsp/locks.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.i
 .PHONY : lib/bsp/locks.c.i
 
 lib/bsp/locks.s: lib/bsp/locks.c.s
@@ -257,7 +257,7 @@ lib/bsp/locks.s: lib/bsp/locks.c.s
 
 # target to generate assembly for a file
 lib/bsp/locks.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/locks.c.s
 .PHONY : lib/bsp/locks.c.s
 
 lib/bsp/printf.obj: lib/bsp/printf.c.obj
@@ -266,7 +266,7 @@ lib/bsp/printf.obj: lib/bsp/printf.c.obj
 
 # target to build an object file
 lib/bsp/printf.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.obj
 .PHONY : lib/bsp/printf.c.obj
 
 lib/bsp/printf.i: lib/bsp/printf.c.i
@@ -275,7 +275,7 @@ lib/bsp/printf.i: lib/bsp/printf.c.i
 
 # target to preprocess a source file
 lib/bsp/printf.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.i
 .PHONY : lib/bsp/printf.c.i
 
 lib/bsp/printf.s: lib/bsp/printf.c.s
@@ -284,7 +284,7 @@ lib/bsp/printf.s: lib/bsp/printf.c.s
 
 # target to generate assembly for a file
 lib/bsp/printf.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/printf.c.s
 .PHONY : lib/bsp/printf.c.s
 
 lib/bsp/sleep.obj: lib/bsp/sleep.c.obj
@@ -293,7 +293,7 @@ lib/bsp/sleep.obj: lib/bsp/sleep.c.obj
 
 # target to build an object file
 lib/bsp/sleep.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.obj
 .PHONY : lib/bsp/sleep.c.obj
 
 lib/bsp/sleep.i: lib/bsp/sleep.c.i
@@ -302,7 +302,7 @@ lib/bsp/sleep.i: lib/bsp/sleep.c.i
 
 # target to preprocess a source file
 lib/bsp/sleep.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.i
 .PHONY : lib/bsp/sleep.c.i
 
 lib/bsp/sleep.s: lib/bsp/sleep.c.s
@@ -311,7 +311,7 @@ lib/bsp/sleep.s: lib/bsp/sleep.c.s
 
 # target to generate assembly for a file
 lib/bsp/sleep.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/sleep.c.s
 .PHONY : lib/bsp/sleep.c.s
 
 lib/bsp/syscalls.obj: lib/bsp/syscalls.c.obj
@@ -320,7 +320,7 @@ lib/bsp/syscalls.obj: lib/bsp/syscalls.c.obj
 
 # target to build an object file
 lib/bsp/syscalls.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.obj
 .PHONY : lib/bsp/syscalls.c.obj
 
 lib/bsp/syscalls.i: lib/bsp/syscalls.c.i
@@ -329,7 +329,7 @@ lib/bsp/syscalls.i: lib/bsp/syscalls.c.i
 
 # target to preprocess a source file
 lib/bsp/syscalls.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.i
 .PHONY : lib/bsp/syscalls.c.i
 
 lib/bsp/syscalls.s: lib/bsp/syscalls.c.s
@@ -338,7 +338,7 @@ lib/bsp/syscalls.s: lib/bsp/syscalls.c.s
 
 # target to generate assembly for a file
 lib/bsp/syscalls.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/bsp/syscalls.c.s
 .PHONY : lib/bsp/syscalls.c.s
 
 lib/drivers/aes.obj: lib/drivers/aes.c.obj
@@ -347,7 +347,7 @@ lib/drivers/aes.obj: lib/drivers/aes.c.obj
 
 # target to build an object file
 lib/drivers/aes.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.obj
 .PHONY : lib/drivers/aes.c.obj
 
 lib/drivers/aes.i: lib/drivers/aes.c.i
@@ -356,7 +356,7 @@ lib/drivers/aes.i: lib/drivers/aes.c.i
 
 # target to preprocess a source file
 lib/drivers/aes.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.i
 .PHONY : lib/drivers/aes.c.i
 
 lib/drivers/aes.s: lib/drivers/aes.c.s
@@ -365,7 +365,7 @@ lib/drivers/aes.s: lib/drivers/aes.c.s
 
 # target to generate assembly for a file
 lib/drivers/aes.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/aes.c.s
 .PHONY : lib/drivers/aes.c.s
 
 lib/drivers/apu.obj: lib/drivers/apu.c.obj
@@ -374,7 +374,7 @@ lib/drivers/apu.obj: lib/drivers/apu.c.obj
 
 # target to build an object file
 lib/drivers/apu.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.obj
 .PHONY : lib/drivers/apu.c.obj
 
 lib/drivers/apu.i: lib/drivers/apu.c.i
@@ -383,7 +383,7 @@ lib/drivers/apu.i: lib/drivers/apu.c.i
 
 # target to preprocess a source file
 lib/drivers/apu.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.i
 .PHONY : lib/drivers/apu.c.i
 
 lib/drivers/apu.s: lib/drivers/apu.c.s
@@ -392,7 +392,7 @@ lib/drivers/apu.s: lib/drivers/apu.c.s
 
 # target to generate assembly for a file
 lib/drivers/apu.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/apu.c.s
 .PHONY : lib/drivers/apu.c.s
 
 lib/drivers/clint.obj: lib/drivers/clint.c.obj
@@ -401,7 +401,7 @@ lib/drivers/clint.obj: lib/drivers/clint.c.obj
 
 # target to build an object file
 lib/drivers/clint.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.obj
 .PHONY : lib/drivers/clint.c.obj
 
 lib/drivers/clint.i: lib/drivers/clint.c.i
@@ -410,7 +410,7 @@ lib/drivers/clint.i: lib/drivers/clint.c.i
 
 # target to preprocess a source file
 lib/drivers/clint.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.i
 .PHONY : lib/drivers/clint.c.i
 
 lib/drivers/clint.s: lib/drivers/clint.c.s
@@ -419,7 +419,7 @@ lib/drivers/clint.s: lib/drivers/clint.c.s
 
 # target to generate assembly for a file
 lib/drivers/clint.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/clint.c.s
 .PHONY : lib/drivers/clint.c.s
 
 lib/drivers/dmac.obj: lib/drivers/dmac.c.obj
@@ -428,7 +428,7 @@ lib/drivers/dmac.obj: lib/drivers/dmac.c.obj
 
 # target to build an object file
 lib/drivers/dmac.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.obj
 .PHONY : lib/drivers/dmac.c.obj
 
 lib/drivers/dmac.i: lib/drivers/dmac.c.i
@@ -437,7 +437,7 @@ lib/drivers/dmac.i: lib/drivers/dmac.c.i
 
 # target to preprocess a source file
 lib/drivers/dmac.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.i
 .PHONY : lib/drivers/dmac.c.i
 
 lib/drivers/dmac.s: lib/drivers/dmac.c.s
@@ -446,7 +446,7 @@ lib/drivers/dmac.s: lib/drivers/dmac.c.s
 
 # target to generate assembly for a file
 lib/drivers/dmac.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dmac.c.s
 .PHONY : lib/drivers/dmac.c.s
 
 lib/drivers/dvp.obj: lib/drivers/dvp.c.obj
@@ -455,7 +455,7 @@ lib/drivers/dvp.obj: lib/drivers/dvp.c.obj
 
 # target to build an object file
 lib/drivers/dvp.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.obj
 .PHONY : lib/drivers/dvp.c.obj
 
 lib/drivers/dvp.i: lib/drivers/dvp.c.i
@@ -464,7 +464,7 @@ lib/drivers/dvp.i: lib/drivers/dvp.c.i
 
 # target to preprocess a source file
 lib/drivers/dvp.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.i
 .PHONY : lib/drivers/dvp.c.i
 
 lib/drivers/dvp.s: lib/drivers/dvp.c.s
@@ -473,7 +473,7 @@ lib/drivers/dvp.s: lib/drivers/dvp.c.s
 
 # target to generate assembly for a file
 lib/drivers/dvp.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/dvp.c.s
 .PHONY : lib/drivers/dvp.c.s
 
 lib/drivers/fft.obj: lib/drivers/fft.c.obj
@@ -482,7 +482,7 @@ lib/drivers/fft.obj: lib/drivers/fft.c.obj
 
 # target to build an object file
 lib/drivers/fft.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.obj
 .PHONY : lib/drivers/fft.c.obj
 
 lib/drivers/fft.i: lib/drivers/fft.c.i
@@ -491,7 +491,7 @@ lib/drivers/fft.i: lib/drivers/fft.c.i
 
 # target to preprocess a source file
 lib/drivers/fft.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.i
 .PHONY : lib/drivers/fft.c.i
 
 lib/drivers/fft.s: lib/drivers/fft.c.s
@@ -500,7 +500,7 @@ lib/drivers/fft.s: lib/drivers/fft.c.s
 
 # target to generate assembly for a file
 lib/drivers/fft.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fft.c.s
 .PHONY : lib/drivers/fft.c.s
 
 lib/drivers/fpioa.obj: lib/drivers/fpioa.c.obj
@@ -509,7 +509,7 @@ lib/drivers/fpioa.obj: lib/drivers/fpioa.c.obj
 
 # target to build an object file
 lib/drivers/fpioa.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.obj
 .PHONY : lib/drivers/fpioa.c.obj
 
 lib/drivers/fpioa.i: lib/drivers/fpioa.c.i
@@ -518,7 +518,7 @@ lib/drivers/fpioa.i: lib/drivers/fpioa.c.i
 
 # target to preprocess a source file
 lib/drivers/fpioa.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.i
 .PHONY : lib/drivers/fpioa.c.i
 
 lib/drivers/fpioa.s: lib/drivers/fpioa.c.s
@@ -527,7 +527,7 @@ lib/drivers/fpioa.s: lib/drivers/fpioa.c.s
 
 # target to generate assembly for a file
 lib/drivers/fpioa.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/fpioa.c.s
 .PHONY : lib/drivers/fpioa.c.s
 
 lib/drivers/gpio.obj: lib/drivers/gpio.c.obj
@@ -536,7 +536,7 @@ lib/drivers/gpio.obj: lib/drivers/gpio.c.obj
 
 # target to build an object file
 lib/drivers/gpio.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.obj
 .PHONY : lib/drivers/gpio.c.obj
 
 lib/drivers/gpio.i: lib/drivers/gpio.c.i
@@ -545,7 +545,7 @@ lib/drivers/gpio.i: lib/drivers/gpio.c.i
 
 # target to preprocess a source file
 lib/drivers/gpio.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.i
 .PHONY : lib/drivers/gpio.c.i
 
 lib/drivers/gpio.s: lib/drivers/gpio.c.s
@@ -554,7 +554,7 @@ lib/drivers/gpio.s: lib/drivers/gpio.c.s
 
 # target to generate assembly for a file
 lib/drivers/gpio.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpio.c.s
 .PHONY : lib/drivers/gpio.c.s
 
 lib/drivers/gpiohs.obj: lib/drivers/gpiohs.c.obj
@@ -563,7 +563,7 @@ lib/drivers/gpiohs.obj: lib/drivers/gpiohs.c.obj
 
 # target to build an object file
 lib/drivers/gpiohs.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.obj
 .PHONY : lib/drivers/gpiohs.c.obj
 
 lib/drivers/gpiohs.i: lib/drivers/gpiohs.c.i
@@ -572,7 +572,7 @@ lib/drivers/gpiohs.i: lib/drivers/gpiohs.c.i
 
 # target to preprocess a source file
 lib/drivers/gpiohs.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.i
 .PHONY : lib/drivers/gpiohs.c.i
 
 lib/drivers/gpiohs.s: lib/drivers/gpiohs.c.s
@@ -581,7 +581,7 @@ lib/drivers/gpiohs.s: lib/drivers/gpiohs.c.s
 
 # target to generate assembly for a file
 lib/drivers/gpiohs.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/gpiohs.c.s
 .PHONY : lib/drivers/gpiohs.c.s
 
 lib/drivers/i2c.obj: lib/drivers/i2c.c.obj
@@ -590,7 +590,7 @@ lib/drivers/i2c.obj: lib/drivers/i2c.c.obj
 
 # target to build an object file
 lib/drivers/i2c.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.obj
 .PHONY : lib/drivers/i2c.c.obj
 
 lib/drivers/i2c.i: lib/drivers/i2c.c.i
@@ -599,7 +599,7 @@ lib/drivers/i2c.i: lib/drivers/i2c.c.i
 
 # target to preprocess a source file
 lib/drivers/i2c.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.i
 .PHONY : lib/drivers/i2c.c.i
 
 lib/drivers/i2c.s: lib/drivers/i2c.c.s
@@ -608,7 +608,7 @@ lib/drivers/i2c.s: lib/drivers/i2c.c.s
 
 # target to generate assembly for a file
 lib/drivers/i2c.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2c.c.s
 .PHONY : lib/drivers/i2c.c.s
 
 lib/drivers/i2s.obj: lib/drivers/i2s.c.obj
@@ -617,7 +617,7 @@ lib/drivers/i2s.obj: lib/drivers/i2s.c.obj
 
 # target to build an object file
 lib/drivers/i2s.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.obj
 .PHONY : lib/drivers/i2s.c.obj
 
 lib/drivers/i2s.i: lib/drivers/i2s.c.i
@@ -626,7 +626,7 @@ lib/drivers/i2s.i: lib/drivers/i2s.c.i
 
 # target to preprocess a source file
 lib/drivers/i2s.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.i
 .PHONY : lib/drivers/i2s.c.i
 
 lib/drivers/i2s.s: lib/drivers/i2s.c.s
@@ -635,7 +635,7 @@ lib/drivers/i2s.s: lib/drivers/i2s.c.s
 
 # target to generate assembly for a file
 lib/drivers/i2s.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/i2s.c.s
 .PHONY : lib/drivers/i2s.c.s
 
 lib/drivers/kpu.obj: lib/drivers/kpu.c.obj
@@ -644,7 +644,7 @@ lib/drivers/kpu.obj: lib/drivers/kpu.c.obj
 
 # target to build an object file
 lib/drivers/kpu.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.obj
 .PHONY : lib/drivers/kpu.c.obj
 
 lib/drivers/kpu.i: lib/drivers/kpu.c.i
@@ -653,7 +653,7 @@ lib/drivers/kpu.i: lib/drivers/kpu.c.i
 
 # target to preprocess a source file
 lib/drivers/kpu.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.i
 .PHONY : lib/drivers/kpu.c.i
 
 lib/drivers/kpu.s: lib/drivers/kpu.c.s
@@ -662,7 +662,7 @@ lib/drivers/kpu.s: lib/drivers/kpu.c.s
 
 # target to generate assembly for a file
 lib/drivers/kpu.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/kpu.c.s
 .PHONY : lib/drivers/kpu.c.s
 
 lib/drivers/plic.obj: lib/drivers/plic.c.obj
@@ -671,7 +671,7 @@ lib/drivers/plic.obj: lib/drivers/plic.c.obj
 
 # target to build an object file
 lib/drivers/plic.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.obj
 .PHONY : lib/drivers/plic.c.obj
 
 lib/drivers/plic.i: lib/drivers/plic.c.i
@@ -680,7 +680,7 @@ lib/drivers/plic.i: lib/drivers/plic.c.i
 
 # target to preprocess a source file
 lib/drivers/plic.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.i
 .PHONY : lib/drivers/plic.c.i
 
 lib/drivers/plic.s: lib/drivers/plic.c.s
@@ -689,7 +689,7 @@ lib/drivers/plic.s: lib/drivers/plic.c.s
 
 # target to generate assembly for a file
 lib/drivers/plic.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/plic.c.s
 .PHONY : lib/drivers/plic.c.s
 
 lib/drivers/pwm.obj: lib/drivers/pwm.c.obj
@@ -698,7 +698,7 @@ lib/drivers/pwm.obj: lib/drivers/pwm.c.obj
 
 # target to build an object file
 lib/drivers/pwm.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.obj
 .PHONY : lib/drivers/pwm.c.obj
 
 lib/drivers/pwm.i: lib/drivers/pwm.c.i
@@ -707,7 +707,7 @@ lib/drivers/pwm.i: lib/drivers/pwm.c.i
 
 # target to preprocess a source file
 lib/drivers/pwm.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.i
 .PHONY : lib/drivers/pwm.c.i
 
 lib/drivers/pwm.s: lib/drivers/pwm.c.s
@@ -716,7 +716,7 @@ lib/drivers/pwm.s: lib/drivers/pwm.c.s
 
 # target to generate assembly for a file
 lib/drivers/pwm.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/pwm.c.s
 .PHONY : lib/drivers/pwm.c.s
 
 lib/drivers/rtc.obj: lib/drivers/rtc.c.obj
@@ -725,7 +725,7 @@ lib/drivers/rtc.obj: lib/drivers/rtc.c.obj
 
 # target to build an object file
 lib/drivers/rtc.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.obj
 .PHONY : lib/drivers/rtc.c.obj
 
 lib/drivers/rtc.i: lib/drivers/rtc.c.i
@@ -734,7 +734,7 @@ lib/drivers/rtc.i: lib/drivers/rtc.c.i
 
 # target to preprocess a source file
 lib/drivers/rtc.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.i
 .PHONY : lib/drivers/rtc.c.i
 
 lib/drivers/rtc.s: lib/drivers/rtc.c.s
@@ -743,7 +743,7 @@ lib/drivers/rtc.s: lib/drivers/rtc.c.s
 
 # target to generate assembly for a file
 lib/drivers/rtc.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/rtc.c.s
 .PHONY : lib/drivers/rtc.c.s
 
 lib/drivers/sha256.obj: lib/drivers/sha256.c.obj
@@ -752,7 +752,7 @@ lib/drivers/sha256.obj: lib/drivers/sha256.c.obj
 
 # target to build an object file
 lib/drivers/sha256.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.obj
 .PHONY : lib/drivers/sha256.c.obj
 
 lib/drivers/sha256.i: lib/drivers/sha256.c.i
@@ -761,7 +761,7 @@ lib/drivers/sha256.i: lib/drivers/sha256.c.i
 
 # target to preprocess a source file
 lib/drivers/sha256.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.i
 .PHONY : lib/drivers/sha256.c.i
 
 lib/drivers/sha256.s: lib/drivers/sha256.c.s
@@ -770,7 +770,7 @@ lib/drivers/sha256.s: lib/drivers/sha256.c.s
 
 # target to generate assembly for a file
 lib/drivers/sha256.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sha256.c.s
 .PHONY : lib/drivers/sha256.c.s
 
 lib/drivers/spi.obj: lib/drivers/spi.c.obj
@@ -779,7 +779,7 @@ lib/drivers/spi.obj: lib/drivers/spi.c.obj
 
 # target to build an object file
 lib/drivers/spi.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.obj
 .PHONY : lib/drivers/spi.c.obj
 
 lib/drivers/spi.i: lib/drivers/spi.c.i
@@ -788,7 +788,7 @@ lib/drivers/spi.i: lib/drivers/spi.c.i
 
 # target to preprocess a source file
 lib/drivers/spi.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.i
 .PHONY : lib/drivers/spi.c.i
 
 lib/drivers/spi.s: lib/drivers/spi.c.s
@@ -797,7 +797,7 @@ lib/drivers/spi.s: lib/drivers/spi.c.s
 
 # target to generate assembly for a file
 lib/drivers/spi.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/spi.c.s
 .PHONY : lib/drivers/spi.c.s
 
 lib/drivers/sysctl.obj: lib/drivers/sysctl.c.obj
@@ -806,7 +806,7 @@ lib/drivers/sysctl.obj: lib/drivers/sysctl.c.obj
 
 # target to build an object file
 lib/drivers/sysctl.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.obj
 .PHONY : lib/drivers/sysctl.c.obj
 
 lib/drivers/sysctl.i: lib/drivers/sysctl.c.i
@@ -815,7 +815,7 @@ lib/drivers/sysctl.i: lib/drivers/sysctl.c.i
 
 # target to preprocess a source file
 lib/drivers/sysctl.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.i
 .PHONY : lib/drivers/sysctl.c.i
 
 lib/drivers/sysctl.s: lib/drivers/sysctl.c.s
@@ -824,7 +824,7 @@ lib/drivers/sysctl.s: lib/drivers/sysctl.c.s
 
 # target to generate assembly for a file
 lib/drivers/sysctl.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/sysctl.c.s
 .PHONY : lib/drivers/sysctl.c.s
 
 lib/drivers/timer.obj: lib/drivers/timer.c.obj
@@ -833,7 +833,7 @@ lib/drivers/timer.obj: lib/drivers/timer.c.obj
 
 # target to build an object file
 lib/drivers/timer.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.obj
 .PHONY : lib/drivers/timer.c.obj
 
 lib/drivers/timer.i: lib/drivers/timer.c.i
@@ -842,7 +842,7 @@ lib/drivers/timer.i: lib/drivers/timer.c.i
 
 # target to preprocess a source file
 lib/drivers/timer.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.i
 .PHONY : lib/drivers/timer.c.i
 
 lib/drivers/timer.s: lib/drivers/timer.c.s
@@ -851,7 +851,7 @@ lib/drivers/timer.s: lib/drivers/timer.c.s
 
 # target to generate assembly for a file
 lib/drivers/timer.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/timer.c.s
 .PHONY : lib/drivers/timer.c.s
 
 lib/drivers/uart.obj: lib/drivers/uart.c.obj
@@ -860,7 +860,7 @@ lib/drivers/uart.obj: lib/drivers/uart.c.obj
 
 # target to build an object file
 lib/drivers/uart.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.obj
 .PHONY : lib/drivers/uart.c.obj
 
 lib/drivers/uart.i: lib/drivers/uart.c.i
@@ -869,7 +869,7 @@ lib/drivers/uart.i: lib/drivers/uart.c.i
 
 # target to preprocess a source file
 lib/drivers/uart.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.i
 .PHONY : lib/drivers/uart.c.i
 
 lib/drivers/uart.s: lib/drivers/uart.c.s
@@ -878,7 +878,7 @@ lib/drivers/uart.s: lib/drivers/uart.c.s
 
 # target to generate assembly for a file
 lib/drivers/uart.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uart.c.s
 .PHONY : lib/drivers/uart.c.s
 
 lib/drivers/uarths.obj: lib/drivers/uarths.c.obj
@@ -887,7 +887,7 @@ lib/drivers/uarths.obj: lib/drivers/uarths.c.obj
 
 # target to build an object file
 lib/drivers/uarths.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.obj
 .PHONY : lib/drivers/uarths.c.obj
 
 lib/drivers/uarths.i: lib/drivers/uarths.c.i
@@ -896,7 +896,7 @@ lib/drivers/uarths.i: lib/drivers/uarths.c.i
 
 # target to preprocess a source file
 lib/drivers/uarths.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.i
 .PHONY : lib/drivers/uarths.c.i
 
 lib/drivers/uarths.s: lib/drivers/uarths.c.s
@@ -905,7 +905,7 @@ lib/drivers/uarths.s: lib/drivers/uarths.c.s
 
 # target to generate assembly for a file
 lib/drivers/uarths.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/uarths.c.s
 .PHONY : lib/drivers/uarths.c.s
 
 lib/drivers/utils.obj: lib/drivers/utils.c.obj
@@ -914,7 +914,7 @@ lib/drivers/utils.obj: lib/drivers/utils.c.obj
 
 # target to build an object file
 lib/drivers/utils.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.obj
 .PHONY : lib/drivers/utils.c.obj
 
 lib/drivers/utils.i: lib/drivers/utils.c.i
@@ -923,7 +923,7 @@ lib/drivers/utils.i: lib/drivers/utils.c.i
 
 # target to preprocess a source file
 lib/drivers/utils.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.i
 .PHONY : lib/drivers/utils.c.i
 
 lib/drivers/utils.s: lib/drivers/utils.c.s
@@ -932,7 +932,7 @@ lib/drivers/utils.s: lib/drivers/utils.c.s
 
 # target to generate assembly for a file
 lib/drivers/utils.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/utils.c.s
 .PHONY : lib/drivers/utils.c.s
 
 lib/drivers/wdt.obj: lib/drivers/wdt.c.obj
@@ -941,7 +941,7 @@ lib/drivers/wdt.obj: lib/drivers/wdt.c.obj
 
 # target to build an object file
 lib/drivers/wdt.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.obj
 .PHONY : lib/drivers/wdt.c.obj
 
 lib/drivers/wdt.i: lib/drivers/wdt.c.i
@@ -950,7 +950,7 @@ lib/drivers/wdt.i: lib/drivers/wdt.c.i
 
 # target to preprocess a source file
 lib/drivers/wdt.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.i
 .PHONY : lib/drivers/wdt.c.i
 
 lib/drivers/wdt.s: lib/drivers/wdt.c.s
@@ -959,7 +959,7 @@ lib/drivers/wdt.s: lib/drivers/wdt.c.s
 
 # target to generate assembly for a file
 lib/drivers/wdt.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/drivers/wdt.c.s
 .PHONY : lib/drivers/wdt.c.s
 
 lib/nncase/nncase.obj: lib/nncase/nncase.cpp.obj
@@ -968,7 +968,7 @@ lib/nncase/nncase.obj: lib/nncase/nncase.cpp.obj
 
 # target to build an object file
 lib/nncase/nncase.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.obj
 .PHONY : lib/nncase/nncase.cpp.obj
 
 lib/nncase/nncase.i: lib/nncase/nncase.cpp.i
@@ -977,7 +977,7 @@ lib/nncase/nncase.i: lib/nncase/nncase.cpp.i
 
 # target to preprocess a source file
 lib/nncase/nncase.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.i
 .PHONY : lib/nncase/nncase.cpp.i
 
 lib/nncase/nncase.s: lib/nncase/nncase.cpp.s
@@ -986,7 +986,7 @@ lib/nncase/nncase.s: lib/nncase/nncase.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/nncase.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/nncase.cpp.s
 .PHONY : lib/nncase/nncase.cpp.s
 
 lib/nncase/runtime/cpu/cpu_ops.obj: lib/nncase/runtime/cpu/cpu_ops.cpp.obj
@@ -995,7 +995,7 @@ lib/nncase/runtime/cpu/cpu_ops.obj: lib/nncase/runtime/cpu/cpu_ops.cpp.obj
 
 # target to build an object file
 lib/nncase/runtime/cpu/cpu_ops.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.obj
 .PHONY : lib/nncase/runtime/cpu/cpu_ops.cpp.obj
 
 lib/nncase/runtime/cpu/cpu_ops.i: lib/nncase/runtime/cpu/cpu_ops.cpp.i
@@ -1004,7 +1004,7 @@ lib/nncase/runtime/cpu/cpu_ops.i: lib/nncase/runtime/cpu/cpu_ops.cpp.i
 
 # target to preprocess a source file
 lib/nncase/runtime/cpu/cpu_ops.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.i
 .PHONY : lib/nncase/runtime/cpu/cpu_ops.cpp.i
 
 lib/nncase/runtime/cpu/cpu_ops.s: lib/nncase/runtime/cpu/cpu_ops.cpp.s
@@ -1013,7 +1013,7 @@ lib/nncase/runtime/cpu/cpu_ops.s: lib/nncase/runtime/cpu/cpu_ops.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/runtime/cpu/cpu_ops.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/cpu/cpu_ops.cpp.s
 .PHONY : lib/nncase/runtime/cpu/cpu_ops.cpp.s
 
 lib/nncase/runtime/interpreter.obj: lib/nncase/runtime/interpreter.cpp.obj
@@ -1022,7 +1022,7 @@ lib/nncase/runtime/interpreter.obj: lib/nncase/runtime/interpreter.cpp.obj
 
 # target to build an object file
 lib/nncase/runtime/interpreter.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.obj
 .PHONY : lib/nncase/runtime/interpreter.cpp.obj
 
 lib/nncase/runtime/interpreter.i: lib/nncase/runtime/interpreter.cpp.i
@@ -1031,7 +1031,7 @@ lib/nncase/runtime/interpreter.i: lib/nncase/runtime/interpreter.cpp.i
 
 # target to preprocess a source file
 lib/nncase/runtime/interpreter.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.i
 .PHONY : lib/nncase/runtime/interpreter.cpp.i
 
 lib/nncase/runtime/interpreter.s: lib/nncase/runtime/interpreter.cpp.s
@@ -1040,7 +1040,7 @@ lib/nncase/runtime/interpreter.s: lib/nncase/runtime/interpreter.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/runtime/interpreter.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/interpreter.cpp.s
 .PHONY : lib/nncase/runtime/interpreter.cpp.s
 
 lib/nncase/runtime/k210/interpreter.obj: lib/nncase/runtime/k210/interpreter.cpp.obj
@@ -1049,7 +1049,7 @@ lib/nncase/runtime/k210/interpreter.obj: lib/nncase/runtime/k210/interpreter.cpp
 
 # target to build an object file
 lib/nncase/runtime/k210/interpreter.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.obj
 .PHONY : lib/nncase/runtime/k210/interpreter.cpp.obj
 
 lib/nncase/runtime/k210/interpreter.i: lib/nncase/runtime/k210/interpreter.cpp.i
@@ -1058,7 +1058,7 @@ lib/nncase/runtime/k210/interpreter.i: lib/nncase/runtime/k210/interpreter.cpp.i
 
 # target to preprocess a source file
 lib/nncase/runtime/k210/interpreter.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.i
 .PHONY : lib/nncase/runtime/k210/interpreter.cpp.i
 
 lib/nncase/runtime/k210/interpreter.s: lib/nncase/runtime/k210/interpreter.cpp.s
@@ -1067,7 +1067,7 @@ lib/nncase/runtime/k210/interpreter.s: lib/nncase/runtime/k210/interpreter.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/runtime/k210/interpreter.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/interpreter.cpp.s
 .PHONY : lib/nncase/runtime/k210/interpreter.cpp.s
 
 lib/nncase/runtime/k210/k210_ops.obj: lib/nncase/runtime/k210/k210_ops.cpp.obj
@@ -1076,7 +1076,7 @@ lib/nncase/runtime/k210/k210_ops.obj: lib/nncase/runtime/k210/k210_ops.cpp.obj
 
 # target to build an object file
 lib/nncase/runtime/k210/k210_ops.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.obj
 .PHONY : lib/nncase/runtime/k210/k210_ops.cpp.obj
 
 lib/nncase/runtime/k210/k210_ops.i: lib/nncase/runtime/k210/k210_ops.cpp.i
@@ -1085,7 +1085,7 @@ lib/nncase/runtime/k210/k210_ops.i: lib/nncase/runtime/k210/k210_ops.cpp.i
 
 # target to preprocess a source file
 lib/nncase/runtime/k210/k210_ops.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.i
 .PHONY : lib/nncase/runtime/k210/k210_ops.cpp.i
 
 lib/nncase/runtime/k210/k210_ops.s: lib/nncase/runtime/k210/k210_ops.cpp.s
@@ -1094,7 +1094,7 @@ lib/nncase/runtime/k210/k210_ops.s: lib/nncase/runtime/k210/k210_ops.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/runtime/k210/k210_ops.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/k210/k210_ops.cpp.s
 .PHONY : lib/nncase/runtime/k210/k210_ops.cpp.s
 
 lib/nncase/runtime/kernel_registry.obj: lib/nncase/runtime/kernel_registry.cpp.obj
@@ -1103,7 +1103,7 @@ lib/nncase/runtime/kernel_registry.obj: lib/nncase/runtime/kernel_registry.cpp.o
 
 # target to build an object file
 lib/nncase/runtime/kernel_registry.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.obj
 .PHONY : lib/nncase/runtime/kernel_registry.cpp.obj
 
 lib/nncase/runtime/kernel_registry.i: lib/nncase/runtime/kernel_registry.cpp.i
@@ -1112,7 +1112,7 @@ lib/nncase/runtime/kernel_registry.i: lib/nncase/runtime/kernel_registry.cpp.i
 
 # target to preprocess a source file
 lib/nncase/runtime/kernel_registry.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.i
 .PHONY : lib/nncase/runtime/kernel_registry.cpp.i
 
 lib/nncase/runtime/kernel_registry.s: lib/nncase/runtime/kernel_registry.cpp.s
@@ -1121,7 +1121,7 @@ lib/nncase/runtime/kernel_registry.s: lib/nncase/runtime/kernel_registry.cpp.s
 
 # target to generate assembly for a file
 lib/nncase/runtime/kernel_registry.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/kernel_registry.cpp.s
 .PHONY : lib/nncase/runtime/kernel_registry.cpp.s
 
 lib/nncase/runtime/neutral/neutral_ops.obj: lib/nncase/runtime/neutral/neutral_ops.cpp.obj
@@ -1130,7 +1130,7 @@ lib/nncase/runtime/neutral/neutral_ops.obj: lib/nncase/runtime/neutral/neutral_o
 
 # target to build an object file
 lib/nncase/runtime/neutral/neutral_ops.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.obj
 .PHONY : lib/nncase/runtime/neutral/neutral_ops.cpp.obj
 
 lib/nncase/runtime/neutral/neutral_ops.i: lib/nncase/runtime/neutral/neutral_ops.cpp.i
@@ -1139,7 +1139,7 @@ lib/nncase/runtime/neutral/neutral_ops.i: lib/nncase/runtime/neutral/neutral_ops
 
 # target to preprocess a source file
 lib/nncase/runtime/neutral/neutral_ops.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.i
 .PHONY : lib/nncase/runtime/neutral/neutral_ops.cpp.i
 
 lib/nncase/runtime/neutral/neutral_ops.s: lib/nncase/runtime/neutral/neutral_ops.cpp.s
@@ -1148,7 +1148,7 @@ lib/nncase/runtime/neutral/neutral_ops.s: lib/nncase/runtime/neutral/neutral_ops
 
 # target to generate assembly for a file
 lib/nncase/runtime/neutral/neutral_ops.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/build.make kendryte_standalone-sdk/CMakeFiles/kendryte_standalone-sdk.dir/lib/nncase/runtime/neutral/neutral_ops.cpp.s
 .PHONY : lib/nncase/runtime/neutral/neutral_ops.cpp.s
 
 # Help Target
@@ -1285,6 +1285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

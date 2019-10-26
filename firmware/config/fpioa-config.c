@@ -22,6 +22,7 @@ ret += fpioa_set_function(26, FUNC_GPIOHS7);
 ret += fpioa_set_function(18, FUNC_GPIOHS30);
 ret += fpioa_set_function(20, FUNC_GPIOHS31);
 ret += fpioa_set_function(23, FUNC_TIMER1_TOGGLE1);
+ret += fpioa_set_function(3, FUNC_TIMER1_TOGGLE2);
 
 return ret;
 }

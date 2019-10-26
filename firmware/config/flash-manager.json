@@ -7,7 +7,7 @@
             "name": "KMODEL",
             "address": "0x80000",
             "autoAddress": true,
-            "filename": "yolo.kmodel",
+            "filename": "yolo-cvt.kmodel",
             "addressEnd": "0x1CA000",
             "swapBytes": true
         }

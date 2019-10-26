@@ -2,25 +2,27 @@
 
 int main(void)
 {
-  /* init */
-  system_init();
+    /* init */
+    system_init();
 
-  /* loop start */
-  while (true)
-  {
-    if (camera.grab_frame_done())
+    /* loop start */
+    while (true)
     {
-      /* process frame */
-      nn.run();
+        if (camera.grab_frame_done())
+        {
+            /* process frame */
+            nn.run();
 
-      /* start to calculate */
-      camera.switch_gram();
+            system_init();
 
-      /* display frame */
-      lcd.draw_picture_resized(0, 0, 160, 120, camera.get_frame_ptr());
-      //camera.save_picture();
+            /* start to calculate */
+            camera.switch_gram();
+
+            /* display frame */
+            lcd.draw_picture_resized(0, 0, 160, 120, camera.get_frame_ptr());
+            // camera.save_picture();
+        }
     }
-  }
 
-  return 0;
+    return 0;
 }

@@ -11,7 +11,7 @@ kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.d
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
  ../kendryte_libraries/kendryte_w25qxx-standalone-driver/include/w25qxx.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/encoding.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/bsp/include/platform.h
@@ -22,4 +22,4 @@ kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.d
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/spi.h
  ../kendryte_libraries/kendryte_standalone-sdk/lib/drivers/include/sysctl.h
  ../kendryte_libraries/kendryte_w25qxx-standalone-driver/include/w25qxx.h
- C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c
+ C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c

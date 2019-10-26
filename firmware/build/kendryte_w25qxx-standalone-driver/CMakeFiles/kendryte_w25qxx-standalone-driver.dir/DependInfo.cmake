@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c" "C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj"
-  "C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c" "C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj"
+  "C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c" "C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj"
+  "C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c" "C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
   "KENDRYTE_SDK_TYPE_FREERTOS=2"
   "KENDRYTE_SDK_TYPE_STANDALONE=1"
   "NNCASE_TARGET=k210"
-  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/"
+  "PROJECT_PATH=C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/"
   "SPI_DEVICE_INDEX=SPI_DEVICE_1"
   "TCB_SPAN_NO_CONTRACT_CHECKING"
   "TCB_SPAN_NO_EXCEPTIONS"

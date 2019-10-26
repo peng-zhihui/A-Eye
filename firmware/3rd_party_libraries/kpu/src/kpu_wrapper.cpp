@@ -1,6 +1,6 @@
 #include "kpu_wrapper.h"
 
-uint8_t KPU::g_ai_buf[320 * 240 * 3] __attribute__((aligned(128)));
+uint8_t KPU::g_ai_buf[3 * 320 * 240] __attribute__((aligned(128)));
 uint32_t KPU::lable_string_draw_ram[115 * 16 * 8 / 2];
 volatile uint8_t KPU::g_ai_done_flag;
 
@@ -26,8 +26,8 @@ void KPU::lable_init(void)
   }
 }
 
-void drawboxes(uint32_t x1, uint32_t y1, uint32_t x2,
-               uint32_t y2, uint32_t clazz, float prob)
+void drawboxes(uint32_t x1, uint32_t y1, uint32_t x2, uint32_t y2,
+               uint32_t clazz, float prob)
 {
   if (x1 >= 320)
     x1 = 319;
@@ -76,6 +76,12 @@ int KPU::run()
   size_t output_size;
   kpu_get_output(&task, 0, (uint8_t **)(&output), &output_size);
   detect_rl.input = output;
+
+  // for (int i = 0; i < output_size / 4; i++)
+  // {
+  //   printf("%.3f ", *(output + i));
+  // }
+  // printf("\n");
 
   /* start region layer */
   region_layer_run(&detect_rl, NULL);

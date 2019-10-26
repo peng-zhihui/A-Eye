@@ -48,10 +48,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/progress.marks
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/clean
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/rule:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/rule
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/rule
 .PHONY : kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ kendryte_sdcard-file-bmp-standalone-driver: kendryte_sdcard-file-bmp-standalone-
 
 # fast build rule for target.
 kendryte_sdcard-file-bmp-standalone-driver/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build
 .PHONY : kendryte_sdcard-file-bmp-standalone-driver/fast
 
 src/rgb2bmp.obj: src/rgb2bmp.c.obj
@@ -131,7 +131,7 @@ src/rgb2bmp.obj: src/rgb2bmp.c.obj
 
 # target to build an object file
 src/rgb2bmp.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.obj
 .PHONY : src/rgb2bmp.c.obj
 
 src/rgb2bmp.i: src/rgb2bmp.c.i
@@ -140,7 +140,7 @@ src/rgb2bmp.i: src/rgb2bmp.c.i
 
 # target to preprocess a source file
 src/rgb2bmp.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.i
 .PHONY : src/rgb2bmp.c.i
 
 src/rgb2bmp.s: src/rgb2bmp.c.s
@@ -149,7 +149,7 @@ src/rgb2bmp.s: src/rgb2bmp.c.s
 
 # target to generate assembly for a file
 src/rgb2bmp.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/build.make kendryte_sdcard-file-bmp-standalone-driver/CMakeFiles/kendryte_sdcard-file-bmp-standalone-driver.dir/src/rgb2bmp.c.s
 .PHONY : src/rgb2bmp.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

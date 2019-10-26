@@ -278,7 +278,21 @@ plic.h
 stdint.h
 -
 
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/a_eye_bsp.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/3rd_party_libraries/camera/src/ov_camera.cpp
+ov_camera.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/3rd_party_libraries/camera/src/ov_camera.h
+kpu_wrapper.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/3rd_party_libraries/camera/src/kpu_wrapper.h
+
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/3rd_party_libraries/kpu/src/kpu_wrapper.cpp
+kpu_wrapper.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/3rd_party_libraries/kpu/src/kpu_wrapper.h
+
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/a_eye_bsp.cpp
+a_eye_bsp.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/a_eye_bsp.h
+
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/a_eye_bsp.h
 bsp.h
 -
 camera.h
@@ -308,15 +322,15 @@ uarths.h
 unistd.h
 -
 screen.h
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/screen.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/screen.h
 tfcard.h
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/tfcard.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/tfcard.h
 ov_camera.h
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/ov_camera.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/ov_camera.h
 kpu_wrapper.h
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/kpu_wrapper.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/kpu_wrapper.h
 
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/main.cpp
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/main.cpp
 a_eye_bsp.h
-C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/src/a_eye_bsp.h
+C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/src/a_eye_bsp.h
 

@@ -18,6 +18,7 @@
         "GPIOHS7": "B7",
         "GPIOHS30": "B11",
         "GPIOHS31": "B10",
-        "TIMER1_TOGGLE1": "A9"
+        "TIMER1_TOGGLE1": "A9",
+        "TIMER1_TOGGLE2": "J12"
     }
 }

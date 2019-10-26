@@ -48,10 +48,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles/progress.marks
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles 0
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles/progress.marks
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 clean
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -97,17 +97,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -207,7 +207,7 @@ kendryte_ai_image/fast:
 
 # target to build an object file
 3rd_party_libraries/camera/src/ov_camera.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.obj
 .PHONY : 3rd_party_libraries/camera/src/ov_camera.cpp.obj
 
 3rd_party_libraries/camera/src/ov_camera.i: 3rd_party_libraries/camera/src/ov_camera.cpp.i
@@ -216,7 +216,7 @@ kendryte_ai_image/fast:
 
 # target to preprocess a source file
 3rd_party_libraries/camera/src/ov_camera.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.i
 .PHONY : 3rd_party_libraries/camera/src/ov_camera.cpp.i
 
 3rd_party_libraries/camera/src/ov_camera.s: 3rd_party_libraries/camera/src/ov_camera.cpp.s
@@ -225,7 +225,7 @@ kendryte_ai_image/fast:
 
 # target to generate assembly for a file
 3rd_party_libraries/camera/src/ov_camera.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/camera/src/ov_camera.cpp.s
 .PHONY : 3rd_party_libraries/camera/src/ov_camera.cpp.s
 
 3rd_party_libraries/kpu/src/kpu_wrapper.obj: 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.obj
@@ -234,7 +234,7 @@ kendryte_ai_image/fast:
 
 # target to build an object file
 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.obj
 .PHONY : 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.obj
 
 3rd_party_libraries/kpu/src/kpu_wrapper.i: 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.i
@@ -243,7 +243,7 @@ kendryte_ai_image/fast:
 
 # target to preprocess a source file
 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.i
 .PHONY : 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.i
 
 3rd_party_libraries/kpu/src/kpu_wrapper.s: 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.s
@@ -252,7 +252,7 @@ kendryte_ai_image/fast:
 
 # target to generate assembly for a file
 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/kpu/src/kpu_wrapper.cpp.s
 .PHONY : 3rd_party_libraries/kpu/src/kpu_wrapper.cpp.s
 
 3rd_party_libraries/screen/src/screen.obj: 3rd_party_libraries/screen/src/screen.cpp.obj
@@ -261,7 +261,7 @@ kendryte_ai_image/fast:
 
 # target to build an object file
 3rd_party_libraries/screen/src/screen.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.obj
 .PHONY : 3rd_party_libraries/screen/src/screen.cpp.obj
 
 3rd_party_libraries/screen/src/screen.i: 3rd_party_libraries/screen/src/screen.cpp.i
@@ -270,7 +270,7 @@ kendryte_ai_image/fast:
 
 # target to preprocess a source file
 3rd_party_libraries/screen/src/screen.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.i
 .PHONY : 3rd_party_libraries/screen/src/screen.cpp.i
 
 3rd_party_libraries/screen/src/screen.s: 3rd_party_libraries/screen/src/screen.cpp.s
@@ -279,7 +279,7 @@ kendryte_ai_image/fast:
 
 # target to generate assembly for a file
 3rd_party_libraries/screen/src/screen.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/screen.cpp.s
 .PHONY : 3rd_party_libraries/screen/src/screen.cpp.s
 
 3rd_party_libraries/screen/src/spi_tft.obj: 3rd_party_libraries/screen/src/spi_tft.c.obj
@@ -288,7 +288,7 @@ kendryte_ai_image/fast:
 
 # target to build an object file
 3rd_party_libraries/screen/src/spi_tft.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.obj
 .PHONY : 3rd_party_libraries/screen/src/spi_tft.c.obj
 
 3rd_party_libraries/screen/src/spi_tft.i: 3rd_party_libraries/screen/src/spi_tft.c.i
@@ -297,7 +297,7 @@ kendryte_ai_image/fast:
 
 # target to preprocess a source file
 3rd_party_libraries/screen/src/spi_tft.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.i
 .PHONY : 3rd_party_libraries/screen/src/spi_tft.c.i
 
 3rd_party_libraries/screen/src/spi_tft.s: 3rd_party_libraries/screen/src/spi_tft.c.s
@@ -306,7 +306,7 @@ kendryte_ai_image/fast:
 
 # target to generate assembly for a file
 3rd_party_libraries/screen/src/spi_tft.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/screen/src/spi_tft.c.s
 .PHONY : 3rd_party_libraries/screen/src/spi_tft.c.s
 
 3rd_party_libraries/tfcard/src/tfcard.obj: 3rd_party_libraries/tfcard/src/tfcard.cpp.obj
@@ -315,7 +315,7 @@ kendryte_ai_image/fast:
 
 # target to build an object file
 3rd_party_libraries/tfcard/src/tfcard.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.obj
 .PHONY : 3rd_party_libraries/tfcard/src/tfcard.cpp.obj
 
 3rd_party_libraries/tfcard/src/tfcard.i: 3rd_party_libraries/tfcard/src/tfcard.cpp.i
@@ -324,7 +324,7 @@ kendryte_ai_image/fast:
 
 # target to preprocess a source file
 3rd_party_libraries/tfcard/src/tfcard.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.i
 .PHONY : 3rd_party_libraries/tfcard/src/tfcard.cpp.i
 
 3rd_party_libraries/tfcard/src/tfcard.s: 3rd_party_libraries/tfcard/src/tfcard.cpp.s
@@ -333,7 +333,7 @@ kendryte_ai_image/fast:
 
 # target to generate assembly for a file
 3rd_party_libraries/tfcard/src/tfcard.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/3rd_party_libraries/tfcard/src/tfcard.cpp.s
 .PHONY : 3rd_party_libraries/tfcard/src/tfcard.cpp.s
 
 config/fpioa-config.obj: config/fpioa-config.c.obj
@@ -342,7 +342,7 @@ config/fpioa-config.obj: config/fpioa-config.c.obj
 
 # target to build an object file
 config/fpioa-config.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.obj
 .PHONY : config/fpioa-config.c.obj
 
 config/fpioa-config.i: config/fpioa-config.c.i
@@ -351,7 +351,7 @@ config/fpioa-config.i: config/fpioa-config.c.i
 
 # target to preprocess a source file
 config/fpioa-config.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.i
 .PHONY : config/fpioa-config.c.i
 
 config/fpioa-config.s: config/fpioa-config.c.s
@@ -360,7 +360,7 @@ config/fpioa-config.s: config/fpioa-config.c.s
 
 # target to generate assembly for a file
 config/fpioa-config.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/fpioa-config.c.s
 .PHONY : config/fpioa-config.c.s
 
 config/ide-hook-main.obj: config/ide-hook-main.c.obj
@@ -369,7 +369,7 @@ config/ide-hook-main.obj: config/ide-hook-main.c.obj
 
 # target to build an object file
 config/ide-hook-main.c.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.obj
 .PHONY : config/ide-hook-main.c.obj
 
 config/ide-hook-main.i: config/ide-hook-main.c.i
@@ -378,7 +378,7 @@ config/ide-hook-main.i: config/ide-hook-main.c.i
 
 # target to preprocess a source file
 config/ide-hook-main.c.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.i
 .PHONY : config/ide-hook-main.c.i
 
 config/ide-hook-main.s: config/ide-hook-main.c.s
@@ -387,7 +387,7 @@ config/ide-hook-main.s: config/ide-hook-main.c.s
 
 # target to generate assembly for a file
 config/ide-hook-main.c.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/config/ide-hook-main.c.s
 .PHONY : config/ide-hook-main.c.s
 
 src/a_eye_bsp.obj: src/a_eye_bsp.cpp.obj
@@ -396,7 +396,7 @@ src/a_eye_bsp.obj: src/a_eye_bsp.cpp.obj
 
 # target to build an object file
 src/a_eye_bsp.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.obj
 .PHONY : src/a_eye_bsp.cpp.obj
 
 src/a_eye_bsp.i: src/a_eye_bsp.cpp.i
@@ -405,7 +405,7 @@ src/a_eye_bsp.i: src/a_eye_bsp.cpp.i
 
 # target to preprocess a source file
 src/a_eye_bsp.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.i
 .PHONY : src/a_eye_bsp.cpp.i
 
 src/a_eye_bsp.s: src/a_eye_bsp.cpp.s
@@ -414,7 +414,7 @@ src/a_eye_bsp.s: src/a_eye_bsp.cpp.s
 
 # target to generate assembly for a file
 src/a_eye_bsp.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/a_eye_bsp.cpp.s
 .PHONY : src/a_eye_bsp.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -423,7 +423,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.obj
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -432,7 +432,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.i
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -441,7 +441,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd c:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.s
+	cd c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build && $(MAKE) -f CMakeFiles/kendryte_kpu-standalone.dir/build.make CMakeFiles/kendryte_kpu-standalone.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target

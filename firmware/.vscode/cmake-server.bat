@@ -6,4 +6,4 @@ SET PYTHONDONTWRITEBYTECODE=yes
 SET CMAKE_MAKE_PROGRAM=make
 SET KENDRYTE_IDE=yes
 SET LANG=en_US.utf-8
-"D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" -E server --experimental --pipe=\\?\pipe\kide.cmake_server_pipe.1570724755767
+"D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe" -E server --experimental --pipe=\\?\pipe\kide.cmake_server_pipe.1571914105506

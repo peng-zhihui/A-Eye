@@ -43,10 +43,10 @@ RM = D:/Green/KendryteIDE/LocalPackage/cmake/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu
+CMAKE_SOURCE_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build
+CMAKE_BINARY_DIR = C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build
 
 # Include any dependencies generated for this target.
 include kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/depend.make
@@ -59,29 +59,29 @@ include kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/flags.make
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj: ../kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj   -c C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj"
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.obj   -c C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c > CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c > CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.i
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx.c -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx.c.s
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/flags.make
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj: ../kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj   -c C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj"
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj   -c C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i: cmake_force
 	@echo "Preprocessing C source to CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c > CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c > CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.i
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s: cmake_force
 	@echo "Compiling C source to assembly CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver/src/w25qxx_dma.c -o CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.s
 
 # Object files for target kendryte_w25qxx-standalone-driver
 kendryte_w25qxx__standalone__driver_OBJECTS = \
@@ -95,9 +95,9 @@ kendryte_w25qxx-standalone-driver/libkendryte_w25qxx-standalone-driver.a: kendry
 kendryte_w25qxx-standalone-driver/libkendryte_w25qxx-standalone-driver.a: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/src/w25qxx_dma.c.obj
 kendryte_w25qxx-standalone-driver/libkendryte_w25qxx-standalone-driver.a: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build.make
 kendryte_w25qxx-standalone-driver/libkendryte_w25qxx-standalone-driver.a: kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libkendryte_w25qxx-standalone-driver.a"
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_w25qxx-standalone-driver.dir/cmake_clean_target.cmake
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kendryte_w25qxx-standalone-driver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libkendryte_w25qxx-standalone-driver.a"
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_w25qxx-standalone-driver.dir/cmake_clean_target.cmake
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kendryte_w25qxx-standalone-driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build: kendryte_w25qxx-standalone-driver/libkendryte_w25qxx-standalone-driver.a
@@ -105,10 +105,10 @@ kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.d
 .PHONY : kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/build
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/clean:
-	cd C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_w25qxx-standalone-driver.dir/cmake_clean.cmake
+	cd C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver && $(CMAKE_COMMAND) -P CMakeFiles/kendryte_w25qxx-standalone-driver.dir/cmake_clean.cmake
 .PHONY : kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/clean
 
 kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_w25qxx-standalone-driver C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver C:/Users/Pengzhihui/Desktop/aeye-kpu-01-yolo-cpp/aeye-kpu-01/aeye-kpu/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/DependInfo.cmake
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/kendryte_libraries/kendryte_w25qxx-standalone-driver C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver C:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/build/kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/DependInfo.cmake
 .PHONY : kendryte_w25qxx-standalone-driver/CMakeFiles/kendryte_w25qxx-standalone-driver.dir/depend
 
