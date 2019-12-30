@@ -13,9 +13,7 @@ int main(void)
             /* process frame */
             nn.run();
 
-            system_init();
-
-            /* start to calculate */
+            /* switch camera buffer */
             camera.switch_gram();
 
             /* display frame */
