@@ -1,0 +1,18 @@
+{
+    "name": "kendryte/sdcard-file-bmp-standalone-driver",
+    "version": "develop",
+    "type": "library",
+    "dependency": {
+        "kendryte/sdcard-standalone-driver": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+    "include": [
+        "include"
+    ],
+    "header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}

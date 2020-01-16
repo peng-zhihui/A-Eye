@@ -1,0 +1,18 @@
+{
+    "$schema": "vscode://schemas/flasher",
+    "downloadSections": [
+        {
+            "id": "1559646153293",
+            "filesize": 388776,
+            "name": "KMODEL",
+            "address": "0x700000",
+            "autoAddress": false,
+            "filename": "detect.kmodel",
+            "addressEnd": "0x75F000",
+            "swapBytes": true
+        }
+    ],
+    "baseAddress": "0x601000",
+    "totalSize": 388776,
+    "endAddress": "0x75F000"
+}

@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_sdcard-standalone-driver.a  CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ccsbcs.c.obj CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/diskio.c.obj CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/ff.c.obj CMakeFiles/kendryte_sdcard-standalone-driver.dir/src/sdcard.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_sdcard-standalone-driver.a

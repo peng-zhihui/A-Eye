@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/include/rgb2bmp.h
+stdio.h
+-
+
+../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ff.h
+ffconf.h
+../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ffconf.h
+integer.h
+../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
+
+../kendryte_libraries/kendryte_sdcard-standalone-driver/include/ffconf.h
+
+../kendryte_libraries/kendryte_sdcard-standalone-driver/include/integer.h
+tchar.h
+-
+windows.h
+-
+
+C:/Users/Pengzhihui/Desktop/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/src/rgb2bmp.c
+ff.h
+C:/Users/Pengzhihui/Desktop/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/src/ff.h
+rgb2bmp.h
+C:/Users/Pengzhihui/Desktop/aeye-kpu-01/aeye-kpu/kendryte_libraries/kendryte_sdcard-file-bmp-standalone-driver/src/rgb2bmp.h
+

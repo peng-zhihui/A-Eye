@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_camera-standalone-driver.a  CMakeFiles/kendryte_camera-standalone-driver.dir/src/camera.c.obj CMakeFiles/kendryte_camera-standalone-driver.dir/src/ov5640.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_camera-standalone-driver.a

@@ -1,0 +1,31 @@
+{
+    "name": "kendryte/kpu-standalone",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop",
+        "kendryte/camera-standalone-driver": "develop",
+        "kendryte/sdcard-standalone-driver": "develop",
+        "kendryte/sdcard-file-bmp-standalone-driver": "develop",
+        "kendryte/w25qxx-standalone-driver": "develop",
+        "kendryte/ai_image": "develop"
+    },
+    "source": [
+        "src/*.c",
+        "src/*.cpp",
+        "3rd_party_libraries/screen/src/*.c",
+        "3rd_party_libraries/screen/src/*.cpp",
+        "3rd_party_libraries/tfcard/src/*.cpp",
+        "3rd_party_libraries/camera/src/*.cpp"
+    ],
+    "header": [
+        "src",
+        "3rd_party_libraries/screen/include",
+        "3rd_party_libraries/tfcard/include",
+        "3rd_party_libraries/camera/include"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection",
+    "definitions": {
+        "SPI_DEVICE_INDEX:raw": "SPI_DEVICE_1"
+    }
+}

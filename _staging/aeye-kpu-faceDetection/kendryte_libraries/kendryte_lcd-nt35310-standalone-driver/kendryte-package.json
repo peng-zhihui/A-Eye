@@ -1,0 +1,28 @@
+{
+    "$schema": "vscode://schemas/CMakeLists",
+    "name": "kendryte/lcd-nt35310-standalone-driver",
+    "version": "develop",
+    "source": [
+        "src/lcd.c",
+        "src/nt35310.c"
+    ],
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection",
+    "header": [
+        "src",
+        "include"
+    ],
+    "type": "library",
+    "include": [
+        "include"
+    ],
+    "definitions": {
+        "DCX_GPIONUM:raw": "2",
+        "RST_GPIONUM:raw": "3",
+        "SPI_CHANNEL:raw": "0",
+        "SPI_SLAVE_SELECT:raw": "3"
+    },
+    "systemLibrary": []
+}

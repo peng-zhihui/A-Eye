@@ -1,0 +1,19 @@
+{
+    "name": "kendryte/camera-standalone-driver",
+    "version": "develop",
+    "type": "library",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+    "include": [
+        "include"
+    ],
+    "header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection",
+    "definitions": {}
+}

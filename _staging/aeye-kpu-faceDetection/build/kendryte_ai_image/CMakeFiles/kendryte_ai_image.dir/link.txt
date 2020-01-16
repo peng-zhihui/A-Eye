@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_ai_image.a  CMakeFiles/kendryte_ai_image.dir/src/image_process.c.obj CMakeFiles/kendryte_ai_image.dir/src/region_layer.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_ai_image.a
