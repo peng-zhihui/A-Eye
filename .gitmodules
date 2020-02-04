@@ -1,0 +1,3 @@
+[submodule "tools/A-Eye-Image2array-tool"]
+	path = tools/A-Eye-Image2array-tool
+	url = https://github.com/imliubo/A-Eye-Image2array-tool.git
