@@ -1,0 +1,15 @@
+{
+    "name": "kendryte/uart-standalone",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+	"header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}
