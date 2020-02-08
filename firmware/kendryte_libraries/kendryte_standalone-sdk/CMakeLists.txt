@@ -32,7 +32,9 @@ set(PROJECT_NAME "kendryte_standalone-sdk")
 
 # [section] Init
 # not need in sub project
-# debug mode disabled
+# debug mode enabled
+set(-DCMAKE_VERBOSE_MAKEFILE TRUE)
+set_property(GLOBAL PROPERTY JOB_POOLS single_debug=1)
 # [/section] Init
 
 # [section] Project
@@ -62,9 +64,17 @@ include_directories(
 ## [/section] Header
 ## [section] Source
 ## add source from config json (38 files matched)
+add_source_file(lib/bsp/crt.S)
+add_source_file(lib/bsp/entry.c)
+add_source_file(lib/bsp/entry_user.c)
+add_source_file(lib/bsp/interrupt.c)
+add_source_file(lib/bsp/locks.c)
+add_source_file(lib/bsp/printf.c)
+add_source_file(lib/bsp/sleep.c)
+add_source_file(lib/bsp/syscalls.c)
 add_source_file(lib/drivers/aes.c)
-add_source_file(lib/drivers/clint.c)
 add_source_file(lib/drivers/apu.c)
+add_source_file(lib/drivers/clint.c)
 add_source_file(lib/drivers/dmac.c)
 add_source_file(lib/drivers/dvp.c)
 add_source_file(lib/drivers/fft.c)
@@ -86,14 +96,6 @@ add_source_file(lib/drivers/uarths.c)
 add_source_file(lib/drivers/utils.c)
 add_source_file(lib/drivers/wdt.c)
 add_source_file(lib/nncase/nncase.cpp)
-add_source_file(lib/bsp/crt.S)
-add_source_file(lib/bsp/entry.c)
-add_source_file(lib/bsp/entry_user.c)
-add_source_file(lib/bsp/interrupt.c)
-add_source_file(lib/bsp/printf.c)
-add_source_file(lib/bsp/locks.c)
-add_source_file(lib/bsp/sleep.c)
-add_source_file(lib/bsp/syscalls.c)
 add_source_file(lib/nncase/runtime/interpreter.cpp)
 add_source_file(lib/nncase/runtime/kernel_registry.cpp)
 add_source_file(lib/nncase/runtime/cpu/cpu_ops.cpp)
@@ -120,7 +122,9 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE "PROJECT_PATH=${CMAKE_CURRENT
 ### [section] Custom2
 
 ### [/section] Custom2
-# debug mode disabled
+# debug mode enabled
+set_property(TARGET ${PROJECT_NAME} PROPERTY JOB_POOL_COMPILE single_debug)
+set_property(TARGET ${PROJECT_NAME} PROPERTY JOB_POOL_LINK single_debug)
 ## set properties
 set_target_properties(${PROJECT_NAME} PROPERTIES LINKER_LANGUAGE "C")
 ## set definitions
@@ -282,5 +286,6 @@ message("")
 message("")
 
 
-
+message("
+  ${PROJECT_NAME} :: SOURCE_FILES=${SOURCE_FILES}")
 # [/section] Dump Setting

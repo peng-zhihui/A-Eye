@@ -187,7 +187,9 @@ set(CMAKE_CXX_LINK_EXECUTABLE
        )
 
 
-# debug mode disabled
+# debug mode enabled
+set(-DCMAKE_VERBOSE_MAKEFILE TRUE)
+set_property(GLOBAL PROPERTY JOB_POOLS single_debug=1)
 # [/section] Init
 
 # [section] Project
@@ -232,8 +234,8 @@ add_source_file(config/fpioa-config.c)
 add_source_file(config/ide-hook-main.c)
 add_source_file(src/a_eye_bsp.cpp)
 add_source_file(src/main.cpp)
-add_source_file(3rd_party_libraries/screen/src/spi_tft.c)
 add_source_file(3rd_party_libraries/screen/src/screen.cpp)
+add_source_file(3rd_party_libraries/screen/src/spi_tft.c)
 add_source_file(3rd_party_libraries/tfcard/src/tfcard.cpp)
 add_source_file(3rd_party_libraries/camera/src/ov_camera.cpp)
 add_source_file(3rd_party_libraries/kpu/src/kpu_wrapper.cpp)
@@ -250,7 +252,9 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE "PROJECT_PATH=${CMAKE_CURRENT
 ### [section] Custom2
 
 ### [/section] Custom2
-# debug mode disabled
+# debug mode enabled
+set_property(TARGET ${PROJECT_NAME} PROPERTY JOB_POOL_COMPILE single_debug)
+set_property(TARGET ${PROJECT_NAME} PROPERTY JOB_POOL_LINK single_debug)
 ## no properties
 ## set definitions
 add_compile_definitions(TCB_SPAN_NO_EXCEPTIONS)
@@ -374,5 +378,6 @@ message("")
 message("")
 
 
-
+message("
+  ${PROJECT_NAME} :: SOURCE_FILES=${SOURCE_FILES}")
 # [/section] Dump Setting

@@ -4,17 +4,17 @@
         {
             "name": "Default",
             "defines": [],
-            "compilerPath": "D:/Green/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
+            "compilerPath": "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "c:/Users/Pengzhihui/Desktop/Tmp/A-Eye/firmware/.vscode/compile_commands.backup.json",
+            "compileCommands": "/home/imliubo/Github/A-Eye/firmware/.vscode/compile_commands.backup.json",
             "includePath": [
-                "D:/Green/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
-                "D:/Green/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
-                "D:/Green/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed",
-                "D:/Green/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0",
-                "D:/Green/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
             ]
         }
     ]

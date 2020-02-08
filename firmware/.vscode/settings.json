@@ -9,6 +9,8 @@
         "w25qxx.h": "c",
         "stdlib.h": "c",
         "fpioa.h": "c",
-        "fpioa-config.h": "c"
+        "fpioa-config.h": "c",
+        "sdcard.h": "c",
+        "spi.h": "c"
     }
 }
