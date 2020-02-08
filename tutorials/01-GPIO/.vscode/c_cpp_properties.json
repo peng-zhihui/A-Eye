@@ -8,7 +8,7 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64",
-            "compileCommands": "/home/imliubo/Github/A-Eye/tutorials/01-GPIO/kendryte_gpio-number-standalone/.vscode/compile_commands.backup.json",
+            "compileCommands": "/home/imliubo/Github/A-Eye/tutorials/01-GPIO/.vscode/compile_commands.backup.json",
             "includePath": [
                 "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
                 "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
