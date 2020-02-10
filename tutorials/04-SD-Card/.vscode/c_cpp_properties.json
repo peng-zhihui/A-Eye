@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Default",
+            "defines": [],
+            "compilerPath": "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "/home/imliubo/Github/A-Eye/tutorials/04-SD-Card/.vscode/compile_commands.backup.json",
+            "includePath": [
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0",
+                "/home/imliubo/Kendryte/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+            ]
+        },
+        {
+            "name": "Linux",
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
