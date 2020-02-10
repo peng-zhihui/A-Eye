@@ -1,0 +1,24 @@
+{
+    "selectedChip": "Kendryte K210",
+    "funcPinMap": {
+        "SPI0_SS3": "B9",
+        "SPI0_SCLK": "A11",
+        "CMOS_RST": "D1",
+        "CMOS_PWDN": "D2",
+        "CMOS_XCLK": "F2",
+        "CMOS_VSYNC": "E1",
+        "CMOS_HREF": "F1",
+        "CMOS_PCLK": "E2",
+        "SCCB_SCLK": "C1",
+        "SCCB_SDA": "C2",
+        "SPI0_D0": "A10",
+        "SPI1_D0": "B6",
+        "SPI1_D1": "A6",
+        "SPI1_SCLK": "A7",
+        "GPIOHS7": "B7",
+        "GPIOHS30": "B11",
+        "GPIOHS31": "B10",
+        "TIMER1_TOGGLE1": "A9",
+        "TIMER1_TOGGLE2": "J12"
+    }
+}
