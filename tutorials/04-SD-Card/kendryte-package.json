@@ -1,0 +1,19 @@
+{
+    "name": "kendryte/sdcard-file-standalone",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop",
+        "kendryte/sdcard-standalone-driver": "develop"
+    },
+    "source": [
+        "src/*.c"
+    ],
+    "header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection",
+    "definitions": {
+        "SPI_DEVICE_INDEX:raw": "SPI_DEVICE_0"
+    }
+}

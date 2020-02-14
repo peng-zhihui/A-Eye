@@ -1,0 +1,18 @@
+{
+    "name": "kendryte/screen-standalone",
+    "version": "develop",
+    "type": "executable",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "source": [
+        "src/*.c",
+        "drivers/lcd/src/lcd.c",
+        "drivers/lcd/src/st7789.c"
+    ],
+    "header": [
+        "src",
+        "drivers/lcd/include"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}

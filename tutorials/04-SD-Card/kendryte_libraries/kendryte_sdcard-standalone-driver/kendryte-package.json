@@ -1,0 +1,21 @@
+{
+    "name": "kendryte/sdcard-standalone-driver",
+    "version": "develop",
+    "type": "library",
+    "dependency": {
+        "kendryte/standalone-sdk": "develop"
+    },
+    "source": [
+        "src/ccsbcs.c",
+        "src/diskio.c",
+        "src/ff.c",
+        "src/sdcard.c"
+    ],
+    "include": [
+        "include"
+    ],
+    "header": [
+        "src"
+    ],
+    "homepage": "https://github.com/GongT/monorepo-kendryte-driver-collection"
+}

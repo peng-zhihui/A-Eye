@@ -1,0 +1,6 @@
+{
+    "selectedChip": "Kendryte K210",
+    "funcPinMap": {
+        "GPIO3": "J12"
+    }
+}

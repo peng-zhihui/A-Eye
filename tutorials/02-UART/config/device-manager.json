@@ -1,0 +1,7 @@
+{
+    "funcPinMap": {
+        "UART1_RX": "H11",
+        "UART1_TX": "H12"
+    },
+    "selectedChip": "Kendryte K210"
+}

@@ -17,18 +17,13 @@
 #include <uarths.h>
 #include <unistd.h>
 
+#include "kpu_wrapper.h"
+#include "ov_camera.h"
 #include "screen.h"
 #include "tfcard.h"
-#include "ov_camera.h"
-#include "kpu_wrapper.h"
-
-void o()
-{
-}
 
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
 
 extern Screen lcd;
